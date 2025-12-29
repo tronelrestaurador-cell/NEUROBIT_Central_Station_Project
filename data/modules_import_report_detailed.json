@@ -1,0 +1,15 @@
+{ "timestamp": 1767034072, "results": {
+"modulo_integrador": {"status": "ok", "note": "modulo_integrador executed (CLI)", "result": {"status": "ok", "returncode": 0, "stdout": "Buscando: prueba adaptador desde runner\n  No encontrado: prueba adaptador desde runner\n\n--- Resumen ---\nEncontrados: 0\nNo encontrados: 1\nCompile_project: FAIL\nReporte final: /home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/reporte_integracion.md\nRutas no resueltas: /home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/rutas_no_resueltas.txt", "stderr": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/modulo_integrador_from_neurobit_central/modulo_integrador.py:193: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  f.write(f\"Fecha: {datetime.datetime.utcnow().isoformat()}Z\\n\\n\")\n/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/modulo_integrador_from_neurobit_central/modulo_integrador.py:84: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  f.write(f\"- Fecha: {datetime.datetime.utcnow().isoformat()}Z\\n\\n\")", "dest_dir": "/tmp/neurobit_integrador_oy24mab0/dest"}},
+"llama_dispatcher_connector": {"status": "ok", "note": "llama CLI executed after importable error", "result": {"status": "ok", "returncode": 0, "stdout": "{\n  \"status\": \"ERROR\",\n  \"error\": \"No module named 'dispatcher_lite'\"\n}", "stderr": "", "parsed_output": {"status": "ERROR", "error": "No module named 'dispatcher_lite'"}}},
+"dispatcher_lite": {"status": "ok", "note": "dispatcher_lite executed via subprocess fallback", "result": {"status": "ok", "returncode": 0, "stdout": "", "stderr": ""}},
+"msg_sequencer": 📝 Procesando: input_1.txt
+🔢 Próximo número de mensaje: 1
+💾 Archivo de salida: mensaje_1.yaml
+❌ Error al generar el mensaje:
+python3: can't open file '/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/msg_sequencer_from_neurobit_central/msg_builder.py': [Errno 2] No such file or directory
+
+{"status": "ok", "note": "msg_sequencer used msg_builder fallback", "result": {"generated": "/tmp/neurobit_msg_seq_2syhjmbs/messages/mensaje_1.yaml"}},
+"msg_builder": Message generated: message_ee8899e2.yaml
+{"status": "ok", "note": "msg_builder called", "result": null},
+"simon_validator": {"status": "ok", "note": "simon_validator executed", "result": {"status": "ok", "returncode": 0, "stdout": "SIMON: OK ✅", "stderr": ""}},
+"sala_app": {"status": "error", "note": "HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /send_message (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [Errno 111] Connection refused\"))"} } }

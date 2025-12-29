@@ -1,0 +1,18 @@
+[Unit]
+Description=Neurobit API service (development)
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=%h/neurobit_salon_v0.1
+ExecStart=%h/neurobit_salon_v0.1/.venv/bin/python %h/neurobit_salon_v0.1/neurobit_api.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+# Notes: this is a template example. Install with:
+# sudo cp scripts/neurobit_api.service /etc/systemd/system/neurobit_api.service
+# sudo systemctl daemon-reload
+# sudo systemctl enable --now neurobit_api

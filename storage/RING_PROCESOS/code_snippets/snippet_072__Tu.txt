@@ -1,0 +1,2 @@
+contextual_limitation: "No tengo acceso a documentos históricos del proyecto"
+   confidence_adjustment: -0.30

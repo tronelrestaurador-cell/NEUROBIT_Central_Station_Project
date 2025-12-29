@@ -1,0 +1,4 @@
+def adjust_corporate_bias(message):
+       if contains_keywords(message, ["obvio", "evidente", "seguro"]):
+           return apply_contextual_validation(message)  # No descartar, validar con contexto
+       return message

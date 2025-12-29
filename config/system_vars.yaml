@@ -1,0 +1,15 @@
+LOGOS_COHERENCE_THRESHOLD:
+  value: 0.85
+  justification: "Umbral mínimo de coherencia para validar mensajes según tesis de Soberanía Consciente"
+
+NODE_POLISEMIA_FACTOR:
+  value: 1.3
+  justification: "Factor de expansión contextual para metadatos"
+
+LOCAL_LLM_ENDPOINT:
+  value: "http://localhost:11434/api/generate"
+  justification: "Conexión a Llama.cpp local - Garantiza soberanía cognitiva evitando dependencia de servidores corporativos"
+
+APACHE_STATIC_DIR:
+  value: "/var/www/neurobit_local"
+  justification: "Directorio para Apache Server - Permite operación 100% local, evitando vigilancia algorítmica"

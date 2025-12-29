@@ -1,0 +1,11 @@
+# Rutas no resueltas
+Fecha: 2025-12-29T18:47:50.959678Z
+
+## prueba adaptador desde runner
+
+Estado: NO ENCONTRADO
+
+Sugerencias: Ninguna encontrada por búsqueda parcial.
+
+Comando sugerido para reintentar la búsqueda:
+`python3 modulo_integrador.py --lista_archivos /tmp/neurobit_integrador_oy24mab0/lista.txt --dir_busqueda /home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1 --dir_destino /tmp/neurobit_integrador_oy24mab0/dest --output_compilado compilado_integrado.txt --output_no_resueltas rutas_no_resueltas.txt`

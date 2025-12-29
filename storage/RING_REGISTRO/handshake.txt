@@ -1,0 +1,12 @@
+HANDSHAKE - handoff_package.zip
+
+Path: /home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/RING_REGISTRO/handoff_package.zip
+SHA256: 13d84d1ef1c77855914c5f85a63b624e25561af0134c4a272619cd10ee1bef0b
+Size: 4,187,656 bytes
+Manifest package_id: HANDOFF_20251228_001
+Recorded at: 2025-12-28T09:39:00Z
+Recorded by: neurobit_salon_v0.1 automated agent
+
+Notes:
+- Package contains: `handoff.md`, `Qwen Chat4_conversation.txt`, `manifest.json`.
+- REST_MODE_ACTIVE.flag present in `RING_REGISTRO`.

@@ -1,0 +1,118 @@
+[
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/tools/modulo_integrador.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/tools/llama_dispatcher_connector.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/tools/dispatcher_lite.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/tools/msg_sequencer.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/tools/msg_builder.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/tools/simon_validator.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/Escritorio/bosquejo artesanal para neurobit-centra/sala/app/sala_app.py",
+    "status": "missing"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/tools/modulo_integrador.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/modulo_integrador_from_neurobit_central/modulo_integrador.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/tools/llama_dispatcher_connector.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/llama_dispatcher_connector_from_neurobit_central/llama_dispatcher_connector.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/tools/dispatcher_lite.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/dispatcher_lite_from_neurobit_central/dispatcher_lite.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/tools/msg_sequencer.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/msg_sequencer_from_neurobit_central/msg_sequencer.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/tools/msg_builder.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/msg_builder_from_neurobit_central/msg_builder.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/tools/simon_validator.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/simon_validator_from_neurobit_central/simon_validator.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-central/sala/app/sala_app.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/sala_app_from_neurobit_central/sala_app.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit-vm/sala_app.py",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/sala_app_from_neurobit_vm/sala_app.py",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/proyectos/neurobit-gui/js/compendium.js",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/interface/compendium.js",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/proyectos/neurobit-gui/js/file-search.js",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/interface/file-search.js",
+    "status": "copied"
+  },
+  {
+    "src": "/home/oxo-nuxun-80-08-unxnu-oxo/proyectos/neurobit-gui/index.html",
+    "dest": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/interface/index.html",
+    "status": "copied"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/dispatcher_lite_from_neurobit_central/dispatcher_lite.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/llama_dispatcher_connector_from_neurobit_central/llama_dispatcher_connector.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/mock_dispatcher/dispatch_adapter.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/mock_dispatcher/__pycache__"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/mock_dispatcher/__init__.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/modulo_integrador_from_neurobit_central/modulo_integrador.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/msg_builder_from_neurobit_central/msg_builder.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/msg_sequencer_from_neurobit_central/msg_sequencer.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/sala_app_from_neurobit_central/sala_app.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/sala_app_from_neurobit_vm/sala_app.py"
+  },
+  {
+    "detected": "/home/oxo-nuxun-80-08-unxnu-oxo/neurobit_salon_v0.1/storage/modules/simon_validator_from_neurobit_central/simon_validator.py"
+  }
+]

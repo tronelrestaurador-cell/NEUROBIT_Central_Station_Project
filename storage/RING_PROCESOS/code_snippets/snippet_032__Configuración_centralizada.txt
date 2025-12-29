@@ -1,0 +1,213 @@
+1
+
+
+
+2
+
+
+
+3
+
+
+
+4
+
+
+
+5
+
+
+
+6
+
+
+
+7
+
+
+
+8
+
+
+
+9
+
+
+
+10
+
+
+
+11
+
+
+
+12
+
+
+
+13
+
+
+
+14
+
+
+
+15
+
+
+
+16
+
+
+
+17
+
+
+
+18
+
+
+
+19
+
+
+
+20
+
+
+
+
+
+21
+
+
+
+22
+
+
+
+23
+
+
+
+24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEUROBIT_CENTRAL_STATION/
+
+├── config/
+
+│   ├── system_vars.yaml       # Variables centrales con justificación ontológica
+
+│   └── node_roles.json        # Roles y responsabilidades por nodo
+
+├── core/
+
+│   ├── fragment_manager.py    # Gestión unificada de fragmentos (CRUD)
+
+│   ├── coherence_filter.py    # Filtro de coherencia mejorado
+
+│   └── message_protocol.py    # Protocolo NEUROBIT completo
+
+├── tools/
+
+│   ├── compile_project.py     # Versión mejorada con metadatos
+
+│   ├── local_llm_connector.py # Conector estandarizado para LLM local
+
+│   └── task_manager.py        # Gestión persistente de tareas
+
+├── interface/
+
+│   ├── index.html             # Punto de entrada unificado
+
+│   ├── modules/
+
+│   │   ├── formateador.js     # Versión persistente con localStorage
+
+│   │   ├── tareas.js          # Sistema con checkboxes persistentes
+
+│   │   └── bitacora.js        # Visualizador de bitácora
+
+│   └── api/
+
+│       └── neurobit_api.py    # API REST minimalista (Flask)
+
+└── data/
+
+    ├── fragments/             # Almacenamiento estandarizado
+
+    ├── tasks/                 # Tareas con estado persistente
+
+    └── logs/                  # Registros de operación

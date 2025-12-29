@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Neurobit Salon Protocol Contract v0.1",
+  "type": "object",
+  "required": ["HEADER_NOTE","OBJETIVO","ACCIONES"],
+  "properties": {
+    "HEADER_NOTE": {"type":"string"},
+    "OBJETIVO": {"type":"string"},
+    "ACCIONES": {"type":"array"}
+  }
+}

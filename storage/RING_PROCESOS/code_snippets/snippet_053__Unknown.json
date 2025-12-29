@@ -1,0 +1,17 @@
+{
+  "message_id":"msg_20251226_0001",
+  "entity_id":"HUMANO_TRON",
+  "perspective":"coordinacion",
+  "context":"RONDA_2",
+  "plane": {"M": 0.72, "E": -0.45},
+  "intention":"definir_protocolo",
+  "content":"Texto original del emisor ...",
+  "analysis": {
+    "coherence_score": 0.72,
+    "emotional_score": -0.45,
+    "issues":["tono_hostil","ambiguedad_termino: 'norma'"],
+    "suggested_reformulation":"Reformular para separar norma/ley y declarar 'marco_semantico:normativo'..."
+  },
+  "provenance":{"created":"2025-12-26T00:20:00Z", "signed_by":"SIMON"},
+  "action":"propose_reformulation" 
+}

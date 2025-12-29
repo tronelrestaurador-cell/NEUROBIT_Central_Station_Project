@@ -1,0 +1,31 @@
+message_envelope_v1:
+  message_id: string
+  entity_id: string
+  perspective: enum [tecnica, coordinación, pedagógica, validación]
+  context: string
+  plane:
+    M: number   # -1.0 .. 1.0
+    E: number   # -1.0 .. 1.0
+  intention: string
+  content: string
+  analysis:
+    coherence_score: number
+    emotional_score: number
+    identified_ambiguities:
+      - term: string
+        senses:
+          - id: string
+            definition: string
+        recommended_sense_id: string
+    suggested_reformulation: string
+    evidence: 
+      - type: string
+        snippet: string
+  provenance:
+    created: timestamp
+    signed_by: string
+  action: enum [store, propose_reformulation, escalate_human, notify, none]
+  human_approval:
+    approved: boolean
+    approver_id: string
+    timestamp: timestamp

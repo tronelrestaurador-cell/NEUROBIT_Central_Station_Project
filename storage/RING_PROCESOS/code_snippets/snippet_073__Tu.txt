@@ -1,0 +1,4 @@
+context_fragment:
+     id: "FRAG_20251226_001"
+     summary: "11 meses de desarrollo, 37 prototipos, 4 LLMs locales validando"
+     key_decision: "Opción X elegida tras descartar 36 alternativas técnicamente inviables"
