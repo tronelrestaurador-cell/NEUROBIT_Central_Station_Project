@@ -150,6 +150,163 @@ def analyze():
     return jsonify(envelope)
 
 
+# ============================================================================
+# FASE 3.1: ENDPOINTS DE GESTIÓN DE AGENTES
+# ============================================================================
+
+from core.agents_registry import AgentRegistry, RoundOrchestrator
+
+# Instancias globales
+agents_registry = AgentRegistry()
+round_orchestrator = RoundOrchestrator(agents_registry)
+
+
+@app.route("/register_agent", methods=["POST"])
+def register_agent():
+    """Registra un nuevo agente en el ecosistema NEUROBIT."""
+    try:
+        payload = request.get_json(force=True)
+    except Exception as e:
+        return jsonify({"error": "invalid json", "detail": str(e)}), 400
+    
+    platform = payload.get("platform")
+    name = payload.get("name")
+    api_key = payload.get("api_key")
+    metadata = payload.get("metadata", {})
+    
+    success, message, agent = agents_registry.register_agent(
+        platform=platform,
+        name=name,
+        api_key=api_key,
+        metadata=metadata
+    )
+    
+    if success:
+        return jsonify({
+            "success": True,
+            "message": message,
+            "agent": {
+                "id": agent.id,
+                "platform": agent.platform,
+                "name": agent.name,
+                "status": agent.status,
+                "registered_at": agent.registered_at
+            }
+        })
+    else:
+        return jsonify({
+            "success": False,
+            "message": message
+        }), 400
+
+
+@app.route("/list_agents", methods=["GET"])
+def list_agents():
+    """Lista todos los agentes registrados."""
+    status_filter = request.args.get("status")
+    
+    agents = agents_registry.list_agents(status=status_filter)
+    
+    return jsonify({
+        "success": True,
+        "count": len(agents),
+        "agents": [
+            {
+                "id": a.id,
+                "platform": a.platform,
+                "name": a.name,
+                "status": a.status,
+                "registered_at": a.registered_at,
+                "last_heartbeat": a.last_heartbeat,
+                "stats": a.stats
+            }
+            for a in agents
+        ]
+    })
+
+
+@app.route("/get_agent/<agent_id>", methods=["GET"])
+def get_agent(agent_id):
+    """Obtiene info de un agente específico."""
+    agent = agents_registry.get_agent(agent_id)
+    
+    if not agent:
+        return jsonify({"error": "Agent not found"}), 404
+    
+    return jsonify({
+        "success": True,
+        "agent": {
+            "id": agent.id,
+            "platform": agent.platform,
+            "name": agent.name,
+            "status": agent.status,
+            "stats": agent.stats
+        }
+    })
+
+
+@app.route("/create_session", methods=["POST"])
+def create_session():
+    """Crea una nueva sala de sesión multi-agente."""
+    try:
+        payload = request.get_json(force=True)
+    except Exception as e:
+        return jsonify({"error": "invalid json", "detail": str(e)}), 400
+    
+    name = payload.get("name")
+    agent_ids = payload.get("agent_ids", [])
+    
+    success, message, session = round_orchestrator.create_session(name, agent_ids)
+    
+    if success:
+        return jsonify({
+            "success": True,
+            "message": message,
+            "session": {
+                "session_id": session.session_id,
+                "name": session.name,
+                "agent_ids": session.agent_ids,
+                "created_at": session.created_at
+            }
+        })
+    else:
+        return jsonify({
+            "success": False,
+            "message": message
+        }), 400
+
+
+@app.route("/add_round/<session_id>", methods=["POST"])
+def add_round(session_id):
+    """Añade una ronda a una sesión."""
+    try:
+        payload = request.get_json(force=True)
+    except Exception as e:
+        return jsonify({"error": "invalid json", "detail": str(e)}), 400
+    
+    title = payload.get("title")
+    prompt = payload.get("prompt")
+    
+    success, message, round_obj = round_orchestrator.add_round(session_id, title, prompt)
+    
+    if success:
+        return jsonify({
+            "success": True,
+            "message": message,
+            "round": {
+                "round_id": round_obj.round_id,
+                "number": round_obj.number,
+                "title": round_obj.title,
+                "status": round_obj.status
+            }
+        })
+    else:
+        return jsonify({
+            "success": False,
+            "message": message
+        }), 400
+
+
 @app.route('/memoria', methods=['GET'])
 def memoria_list():
     """List entries from the append-only memoria_eva.jsonl file.
