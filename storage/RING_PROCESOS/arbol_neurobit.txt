@@ -1,0 +1,1421 @@
+.:
+total 24
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 12 02:35 arbol_neurobit.txt
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 01:59 glossary
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 01:59 nodes
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  113 dic 10 10:36 note.txt
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:36 sala
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 16:21 tools
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 venv
+
+./glossary:
+total 0
+
+./nodes:
+total 4
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 01:59 TRON
+
+./nodes/TRON:
+total 4
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 03:12 historial
+
+./nodes/TRON/historial:
+total 24
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  355 dic 10 02:33 message_seed.yaml
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  349 dic 10 03:01 msg1.yaml
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   54 dic 10 02:32 seed.txt
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 7405 dic 10 02:57 session_1765346138.cast
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:56 session_1765346199.log
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  361 dic 10 03:01 session_1765346491.cast
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 03:12 test_event.txt
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:56 timing.log
+
+./sala:
+total 4
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 04:01 logs
+
+./sala/logs:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 6418 dic 10 04:01 fs_changes.log
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  355 dic 10 02:36 message_seed.yaml
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  349 dic 10 03:01 msg1.yaml
+
+./tools:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 16:21 local_llm_test.py
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2033 dic 10 02:28 msg_builder.py
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2237 dic 10 02:25 simon_validator.py
+
+./venv:
+total 16
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 bin
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  194 dic 10 02:19 CACHEDIR.TAG
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 lib
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  210 dic 10 02:19 pyvenv.cfg
+
+./venv/bin:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2930 dic 10 02:19 activate
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2085 dic 10 02:19 activate.csh
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 3773 dic 10 02:19 activate.fish
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2866 dic 10 02:19 activate.nu
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2657 dic 10 02:19 activate.ps1
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1287 dic 10 02:19 activate_this.py
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  265 dic 10 02:19 pip
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  265 dic 10 02:19 pip3
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  265 dic 10 02:19 pip-3.12
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  265 dic 10 02:19 pip3.12
+lrwxrwxrwx 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   19 dic 10 02:19 python -> /usr/bin/python3.12
+lrwxrwxrwx 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    6 dic 10 02:19 python3 -> python
+lrwxrwxrwx 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    6 dic 10 02:19 python3.12 -> python
+
+./venv/lib:
+total 4
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 python3.12
+
+./venv/lib/python3.12:
+total 4
+drwxrwxr-x 8 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 site-packages
+
+./venv/lib/python3.12/site-packages:
+total 36
+drwxrwxr-x 5 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pip
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pip-25.3.dist-info
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 pip-25.3.virtualenv
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pyyaml-6.0.3.dist-info
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   18 dic 10 02:19 _virtualenv.pth
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 5347 dic 10 02:19 _virtualenv.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 _yaml
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 yaml
+
+./venv/lib/python3.12/site-packages/pip:
+total 28
+-rw-rw-r--  1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  353 dic 10 02:19 __init__.py
+drwxrwxr-x 16 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 _internal
+-rw-rw-r--  1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  854 dic 10 02:19 __main__.py
+-rw-rw-r--  1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1450 dic 10 02:19 __pip-runner__.py
+drwxrwxr-x  2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+-rw-rw-r--  1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  286 dic 10 02:19 py.typed
+drwxrwxr-x 22 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 _vendor
+
+./venv/lib/python3.12/site-packages/pip/_internal:
+total 172
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14201 dic 10 02:19 build_env.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10345 dic 10 02:19 cache.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 cli
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 commands
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14568 dic 10 02:19 configuration.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 distributions
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 29592 dic 10 02:19 exceptions.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 index
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   511 dic 10 02:19 __init__.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 locations
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   338 dic 10 02:19 main.py
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 metadata
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 models
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 network
+drwxrwxr-x 5 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 operations
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4555 dic 10 02:19 pyproject.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 req
+drwxrwxr-x 5 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 resolution
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8471 dic 10 02:19 self_outdated_check.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 utils
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 vcs
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9010 dic 10 02:19 wheel_builder.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/cli:
+total 132
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7193 dic 10 02:19 autocompletion.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8716 dic 10 02:19 base_command.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 31025 dic 10 02:19 cmdoptions.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   817 dic 10 02:19 command_context.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5717 dic 10 02:19 index_command.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   131 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4329 dic 10 02:19 main_parser.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2815 dic 10 02:19 main.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10916 dic 10 02:19 parser.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4668 dic 10 02:19 progress_bars.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13799 dic 10 02:19 req_command.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7362 dic 10 02:19 spinners.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   116 dic 10 02:19 status_codes.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/cli/__pycache__:
+total 140
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9136 dic 10 02:19 autocompletion.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10603 dic 10 02:19 base_command.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 30354 dic 10 02:19 cmdoptions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1831 dic 10 02:19 command_context.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7219 dic 10 02:19 index_command.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   286 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2270 dic 10 02:19 main.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4844 dic 10 02:19 main_parser.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14870 dic 10 02:19 parser.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6115 dic 10 02:19 progress_bars.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13866 dic 10 02:19 req_command.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11273 dic 10 02:19 spinners.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   386 dic 10 02:19 status_codes.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/commands:
+total 168
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8230 dic 10 02:19 cache.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2244 dic 10 02:19 check.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4530 dic 10 02:19 completion.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10105 dic 10 02:19 configuration.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6805 dic 10 02:19 debug.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5075 dic 10 02:19 download.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3099 dic 10 02:19 freeze.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1679 dic 10 02:19 hash.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1108 dic 10 02:19 help.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5243 dic 10 02:19 index.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4026 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3177 dic 10 02:19 inspect.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 30472 dic 10 02:19 install.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13514 dic 10 02:19 list.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5797 dic 10 02:19 lock.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5782 dic 10 02:19 search.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8066 dic 10 02:19 show.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3868 dic 10 02:19 uninstall.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6013 dic 10 02:19 wheel.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/commands/__pycache__:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4128 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 29803 dic 10 02:19 install.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/distributions:
+total 28
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1830 dic 10 02:19 base.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  858 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  929 dic 10 02:19 installed.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 6627 dic 10 02:19 sdist.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1364 dic 10 02:19 wheel.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/distributions/__pycache__:
+total 28
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2930 dic 10 02:19 base.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  952 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1780 dic 10 02:19 installed.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 8388 dic 10 02:19 sdist.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2329 dic 10 02:19 wheel.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/index:
+total 76
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16185 dic 10 02:19 collector.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    29 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 38835 dic 10 02:19 package_finder.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8639 dic 10 02:19 sources.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/index/__pycache__:
+total 88
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 21237 dic 10 02:19 collector.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   240 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 42146 dic 10 02:19 package_finder.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12334 dic 10 02:19 sources.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/locations:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2550 dic 10 02:19 base.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5975 dic 10 02:19 _distutils.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14185 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7716 dic 10 02:19 _sysconfig.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/locations/__pycache__:
+total 28
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3719 dic 10 02:19 base.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 15328 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7936 dic 10 02:19 _sysconfig.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/metadata:
+total 60
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 25420 dic 10 02:19 base.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 importlib
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5824 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2711 dic 10 02:19 _json.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10544 dic 10 02:19 pkg_resources.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_internal/metadata/importlib:
+total 32
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2804 dic 10 02:19 _compat.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 8420 dic 10 02:19 _dists.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 5333 dic 10 02:19 _envs.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  135 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_internal/metadata/importlib/__pycache__:
+total 36
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4248 dic 10 02:19 _compat.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12828 dic 10 02:19 _dists.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8053 dic 10 02:19 _envs.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   369 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/metadata/__pycache__:
+total 48
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34472 dic 10 02:19 base.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6785 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2888 dic 10 02:19 _json.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/models:
+total 92
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   753 dic 10 02:19 candidate.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6555 dic 10 02:19 direct_url.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2471 dic 10 02:19 format_control.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1030 dic 10 02:19 index.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    62 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2839 dic 10 02:19 installation_report.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 21793 dic 10 02:19 link.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6211 dic 10 02:19 pylock.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   575 dic 10 02:19 scheme.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4507 dic 10 02:19 search_scope.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2016 dic 10 02:19 selection_prefs.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4243 dic 10 02:19 target_python.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2920 dic 10 02:19 wheel.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/models/__pycache__:
+total 96
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1615 dic 10 02:19 candidate.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10509 dic 10 02:19 direct_url.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4139 dic 10 02:19 format_control.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1705 dic 10 02:19 index.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   274 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2296 dic 10 02:19 installation_report.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 26654 dic 10 02:19 link.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1034 dic 10 02:19 scheme.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4972 dic 10 02:19 search_scope.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1889 dic 10 02:19 selection_prefs.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4866 dic 10 02:19 target_python.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4679 dic 10 02:19 wheel.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/network:
+total 92
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20681 dic 10 02:19 auth.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4862 dic 10 02:19 cache.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12682 dic 10 02:19 download.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    49 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7646 dic 10 02:19 lazy_wheel.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19188 dic 10 02:19 session.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4091 dic 10 02:19 utils.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1830 dic 10 02:19 xmlrpc.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/network/__pycache__:
+total 88
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 21483 dic 10 02:19 auth.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8013 dic 10 02:19 cache.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16100 dic 10 02:19 download.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   262 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11625 dic 10 02:19 lazy_wheel.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19217 dic 10 02:19 session.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2268 dic 10 02:19 utils.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/operations:
+total 64
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 build
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5894 dic 10 02:19 check.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9854 dic 10 02:19 freeze.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 install
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 28914 dic 10 02:19 prepare.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_internal/operations/build:
+total 28
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4771 dic 10 02:19 build_tracker.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1509 dic 10 02:19 metadata_editable.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1421 dic 10 02:19 metadata.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1478 dic 10 02:19 wheel_editable.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1136 dic 10 02:19 wheel.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/operations/build/__pycache__:
+total 28
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 7641 dic 10 02:19 build_tracker.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  214 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1886 dic 10 02:19 metadata.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1940 dic 10 02:19 metadata_editable.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1736 dic 10 02:19 wheel.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2077 dic 10 02:19 wheel_editable.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/operations/install:
+total 36
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    50 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 27956 dic 10 02:19 wheel.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/operations/install/__pycache__:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   274 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34226 dic 10 02:19 wheel.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/operations/__pycache__:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7217 dic 10 02:19 check.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   208 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 26672 dic 10 02:19 prepare.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/__pycache__:
+total 132
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 18235 dic 10 02:19 build_env.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12377 dic 10 02:19 cache.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 18288 dic 10 02:19 configuration.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 40609 dic 10 02:19 exceptions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   762 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4108 dic 10 02:19 pyproject.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10278 dic 10 02:19 self_outdated_check.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10725 dic 10 02:19 wheel_builder.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/req:
+total 112
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 18581 dic 10 02:19 constructors.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3041 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2618 dic 10 02:19 req_dependency_group.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20130 dic 10 02:19 req_file.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 31273 dic 10 02:19 req_install.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2828 dic 10 02:19 req_set.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 24099 dic 10 02:19 req_uninstall.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/req/__pycache__:
+total 132
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 21695 dic 10 02:19 constructors.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4030 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4026 dic 10 02:19 req_dependency_group.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 23817 dic 10 02:19 req_file.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34676 dic 10 02:19 req_install.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5435 dic 10 02:19 req_set.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 31769 dic 10 02:19 req_uninstall.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/resolution:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  577 dic 10 02:19 base.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 legacy
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 resolvelib
+
+./venv/lib/python3.12/site-packages/pip/_internal/resolution/legacy:
+total 24
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 24060 dic 10 02:19 resolver.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/resolution/__pycache__:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1179 dic 10 02:19 base.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  208 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib:
+total 116
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5047 dic 10 02:19 base.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20454 dic 10 02:19 candidates.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 33628 dic 10 02:19 factory.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6018 dic 10 02:19 found_candidates.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11441 dic 10 02:19 provider.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3909 dic 10 02:19 reporter.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8076 dic 10 02:19 requirements.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13437 dic 10 02:19 resolver.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/__pycache__:
+total 140
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7993 dic 10 02:19 base.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 29464 dic 10 02:19 candidates.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 33852 dic 10 02:19 factory.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6756 dic 10 02:19 found_candidates.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   219 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11649 dic 10 02:19 provider.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5816 dic 10 02:19 reporter.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14763 dic 10 02:19 requirements.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12402 dic 10 02:19 resolver.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/utils:
+total 172
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1681 dic 10 02:19 appdirs.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6630 dic 10 02:19 compatibility_tags.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2514 dic 10 02:19 compat.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   241 dic 10 02:19 datetime.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3696 dic 10 02:19 deprecation.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3200 dic 10 02:19 direct_url_helpers.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2459 dic 10 02:19 egg_link.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3324 dic 10 02:19 entrypoints.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5497 dic 10 02:19 filesystem.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   689 dic 10 02:19 filetypes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3726 dic 10 02:19 glibc.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4998 dic 10 02:19 hashes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3350 dic 10 02:19 _jaraco_text.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12108 dic 10 02:19 logging.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1015 dic 10 02:19 _log.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 23374 dic 10 02:19 misc.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1601 dic 10 02:19 packaging.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1461 dic 10 02:19 retry.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8983 dic 10 02:19 subprocess.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9307 dic 10 02:19 temp_dir.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12974 dic 10 02:19 unpacking.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1601 dic 10 02:19 urls.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3455 dic 10 02:19 virtualenv.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4468 dic 10 02:19 wheel.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/utils/__pycache__:
+total 184
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2463 dic 10 02:19 appdirs.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3030 dic 10 02:19 compat.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6649 dic 10 02:19 compatibility_tags.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4216 dic 10 02:19 deprecation.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3547 dic 10 02:19 direct_url_helpers.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3172 dic 10 02:19 egg_link.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4063 dic 10 02:19 entrypoints.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7997 dic 10 02:19 filesystem.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1137 dic 10 02:19 filetypes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2358 dic 10 02:19 glibc.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7476 dic 10 02:19 hashes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   203 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1874 dic 10 02:19 _log.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13871 dic 10 02:19 logging.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 32708 dic 10 02:19 misc.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1893 dic 10 02:19 packaging.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1980 dic 10 02:19 retry.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8540 dic 10 02:19 subprocess.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11955 dic 10 02:19 temp_dir.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14352 dic 10 02:19 unpacking.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2089 dic 10 02:19 urls.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4402 dic 10 02:19 virtualenv.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5870 dic 10 02:19 wheel.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_internal/vcs:
+total 76
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3734 dic 10 02:19 bazaar.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19144 dic 10 02:19 git.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   596 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5575 dic 10 02:19 mercurial.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11787 dic 10 02:19 subversion.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 22502 dic 10 02:19 versioncontrol.py
+
+./venv/lib/python3.12/site-packages/pip/_internal/vcs/__pycache__:
+total 88
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5170 dic 10 02:19 bazaar.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19929 dic 10 02:19 git.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   542 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7775 dic 10 02:19 mercurial.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12349 dic 10 02:19 subversion.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 28749 dic 10 02:19 versioncontrol.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/__pycache__:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 660 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor:
+total 104
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 cachecontrol
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 certifi
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 dependency_groups
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 distlib
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 distro
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 idna
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4907 dic 10 02:19 __init__.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 msgpack
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 packaging
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pkg_resources
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 platformdirs
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+drwxrwxr-x 7 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pygments
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pyproject_hooks
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 9394 dic 10 02:19 README.rst
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 requests
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 resolvelib
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 rich
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 tomli
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 tomli_w
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 truststore
+drwxrwxr-x 6 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 urllib3
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  343 dic 10 02:19 vendor.txt
+
+./venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol:
+total 80
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6599 dic 10 02:19 adapter.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1953 dic 10 02:19 cache.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 caches
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1737 dic 10 02:19 _cmd.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19101 dic 10 02:19 controller.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4291 dic 10 02:19 filewrapper.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4881 dic 10 02:19 heuristics.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   677 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   558 dic 10 02:19 LICENSE.txt
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5163 dic 10 02:19 serialize.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1417 dic 10 02:19 wrapper.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches:
+total 20
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4117 dic 10 02:19 file_cache.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  303 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1386 dic 10 02:19 redis_cache.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/__pycache__:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 7064 dic 10 02:19 file_cache.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  447 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2750 dic 10 02:19 redis_cache.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/__pycache__:
+total 56
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6723 dic 10 02:19 adapter.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3821 dic 10 02:19 cache.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16465 dic 10 02:19 controller.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4359 dic 10 02:19 filewrapper.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   914 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5277 dic 10 02:19 serialize.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1686 dic 10 02:19 wrapper.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/certifi:
+total 308
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 291366 dic 10 02:19 cacert.pem
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3442 dic 10 02:19 core.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     94 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    989 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    255 dic 10 02:19 __main__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo      0 dic 10 02:19 py.typed
+
+./venv/lib/python3.12/site-packages/pip/_vendor/certifi/__pycache__:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2094 dic 10 02:19 core.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  330 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/dependency_groups:
+total 36
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 8041 dic 10 02:19 _implementation.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  250 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1099 dic 10 02:19 LICENSE.txt
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1710 dic 10 02:19 _lint_dependency_groups.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1709 dic 10 02:19 __main__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1865 dic 10 02:19 _pip_wrapper.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  285 dic 10 02:19 _toml_compat.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/dependency_groups/__pycache__:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 9663 dic 10 02:19 _implementation.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  389 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/distlib:
+total 912
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  41467 dic 10 02:19 compat.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    625 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  14531 dic 10 02:19 LICENSE.txt
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10820 dic 10 02:19 resources.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  18612 dic 10 02:19 scripts.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  97792 dic 10 02:19 t32.exe
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 182784 dic 10 02:19 t64-arm.exe
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 108032 dic 10 02:19 t64.exe
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  66682 dic 10 02:19 util.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  91648 dic 10 02:19 w32.exe
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 168448 dic 10 02:19 w64-arm.exe
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 101888 dic 10 02:19 w64.exe
+
+./venv/lib/python3.12/site-packages/pip/_vendor/distlib/__pycache__:
+total 180
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 45612 dic 10 02:19 compat.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1281 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 17337 dic 10 02:19 resources.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19792 dic 10 02:19 scripts.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 88286 dic 10 02:19 util.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/distro:
+total 76
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 49430 dic 10 02:19 distro.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   981 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11325 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    64 dic 10 02:19 __main__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 py.typed
+
+./venv/lib/python3.12/site-packages/pip/_vendor/distro/__pycache__:
+total 60
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 53857 dic 10 02:19 distro.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   972 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/idna:
+total 360
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3422 dic 10 02:19 codec.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    316 dic 10 02:19 compat.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  13239 dic 10 02:19 core.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  78306 dic 10 02:19 idnadata.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    868 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1898 dic 10 02:19 intranges.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1541 dic 10 02:19 LICENSE.md
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     21 dic 10 02:19 package_data.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo      0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 239289 dic 10 02:19 uts46data.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/idna/__pycache__:
+total 128
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16188 dic 10 02:19 core.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 99488 dic 10 02:19 idnadata.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   898 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2650 dic 10 02:19 intranges.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   229 dic 10 02:19 package_data.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/msgpack:
+total 56
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   614 dic 10 02:19 COPYING
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1081 dic 10 02:19 exceptions.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5726 dic 10 02:19 ext.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 32390 dic 10 02:19 fallback.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1109 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_vendor/msgpack/__pycache__:
+total 64
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2037 dic 10 02:19 exceptions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8305 dic 10 02:19 ext.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 41531 dic 10 02:19 fallback.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1751 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/packaging:
+total 220
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3286 dic 10 02:19 _elffile.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   494 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   197 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10174 dic 10 02:19 LICENSE.APACHE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1344 dic 10 02:19 LICENSE.BSD
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 licenses
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9596 dic 10 02:19 _manylinux.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12049 dic 10 02:19 markers.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34739 dic 10 02:19 metadata.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2694 dic 10 02:19 _musllinux.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10221 dic 10 02:19 _parser.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2947 dic 10 02:19 requirements.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 40079 dic 10 02:19 specifiers.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1431 dic 10 02:19 _structures.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 22745 dic 10 02:19 tags.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5310 dic 10 02:19 _tokenizer.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5050 dic 10 02:19 utils.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16688 dic 10 02:19 version.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/packaging/licenses:
+total 56
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5727 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 48398 dic 10 02:19 _spdx.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/packaging/__pycache__:
+total 184
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5035 dic 10 02:19 _elffile.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   570 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9763 dic 10 02:19 _manylinux.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12777 dic 10 02:19 markers.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4581 dic 10 02:19 _musllinux.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14010 dic 10 02:19 _parser.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4422 dic 10 02:19 requirements.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 39076 dic 10 02:19 specifiers.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3253 dic 10 02:19 _structures.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 24828 dic 10 02:19 tags.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7960 dic 10 02:19 _tokenizer.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6647 dic 10 02:19 utils.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20492 dic 10 02:19 version.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pkg_resources:
+total 128
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 124451 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1023 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip/_vendor/platformdirs:
+total 96
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9013 dic 10 02:19 android.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9281 dic 10 02:19 api.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 22344 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1089 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6322 dic 10 02:19 macos.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1505 dic 10 02:19 __main__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10458 dic 10 02:19 unix.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   704 dic 10 02:19 version.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10125 dic 10 02:19 windows.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/platformdirs/__pycache__:
+total 56
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13372 dic 10 02:19 api.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19859 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14758 dic 10 02:19 unix.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   815 dic 10 02:19 version.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/__pycache__:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4605 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments:
+total 200
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1718 dic 10 02:19 console.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1910 dic 10 02:19 filter.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 filters
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4390 dic 10 02:19 formatter.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 formatters
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2983 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 35349 dic 10 02:19 lexer.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 lexers
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1331 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   353 dic 10 02:19 __main__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1005 dic 10 02:19 modeline.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1891 dic 10 02:19 plugin.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3072 dic 10 02:19 regexopt.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3092 dic 10 02:19 scanner.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7981 dic 10 02:19 sphinxext.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6420 dic 10 02:19 style.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 styles
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6226 dic 10 02:19 token.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 63208 dic 10 02:19 unistring.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10031 dic 10 02:19 util.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/filters:
+total 44
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 40392 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/filters/__pycache__:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 37992 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/formatters:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 5385 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4176 dic 10 02:19 _mapping.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers:
+total 148
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12115 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 77602 dic 10 02:19 _mapping.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 53853 dic 10 02:19 python.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/__pycache__:
+total 88
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14748 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 69857 dic 10 02:19 _mapping.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/__pycache__:
+total 96
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3239 dic 10 02:19 filter.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3501 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 38478 dic 10 02:19 lexer.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1582 dic 10 02:19 modeline.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2641 dic 10 02:19 plugin.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4094 dic 10 02:19 regexopt.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6730 dic 10 02:19 style.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8207 dic 10 02:19 token.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14096 dic 10 02:19 util.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/styles:
+total 12
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2042 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 3312 dic 10 02:19 _mapping.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pygments/styles/__pycache__:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2684 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 3661 dic 10 02:19 _mapping.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks:
+total 32
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14936 dic 10 02:19 _impl.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   691 dic 10 02:19 __init__.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 _in_process
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1081 dic 10 02:19 LICENSE
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 py.typed
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process:
+total 20
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   557 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12216 dic 10 02:19 _in_process.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1089 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/__pycache__:
+total 24
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 18092 dic 10 02:19 _impl.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   760 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/requests:
+total 244
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 26429 dic 10 02:19 adapters.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6449 dic 10 02:19 api.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10186 dic 10 02:19 auth.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   441 dic 10 02:19 certs.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1822 dic 10 02:19 compat.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 18590 dic 10 02:19 cookies.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4272 dic 10 02:19 exceptions.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3813 dic 10 02:19 help.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   733 dic 10 02:19 hooks.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5057 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1495 dic 10 02:19 _internal_utils.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10142 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 35575 dic 10 02:19 models.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1057 dic 10 02:19 packages.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 30503 dic 10 02:19 sessions.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4322 dic 10 02:19 status_codes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2912 dic 10 02:19 structures.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 33225 dic 10 02:19 utils.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   435 dic 10 02:19 __version__.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/requests/__pycache__:
+total 236
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 27885 dic 10 02:19 adapters.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7217 dic 10 02:19 api.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13936 dic 10 02:19 auth.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   691 dic 10 02:19 certs.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1998 dic 10 02:19 compat.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 25289 dic 10 02:19 cookies.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7611 dic 10 02:19 exceptions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1065 dic 10 02:19 hooks.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5266 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2037 dic 10 02:19 _internal_utils.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 35586 dic 10 02:19 models.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1300 dic 10 02:19 packages.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 27903 dic 10 02:19 sessions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6044 dic 10 02:19 status_codes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5630 dic 10 02:19 structures.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 36203 dic 10 02:19 utils.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   597 dic 10 02:19 __version__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/resolvelib:
+total 40
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  541 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  751 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 8914 dic 10 02:19 providers.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2037 dic 10 02:19 reporters.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 resolvers
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 6420 dic 10 02:19 structs.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/resolvelib/__pycache__:
+total 36
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   647 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10136 dic 10 02:19 providers.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3302 dic 10 02:19 reporters.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 12463 dic 10 02:19 structs.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/resolvelib/resolvers:
+total 44
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1543 dic 10 02:19 abstract.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1768 dic 10 02:19 criterion.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1768 dic 10 02:19 exceptions.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   640 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 24212 dic 10 02:19 resolution.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/resolvelib/resolvers/__pycache__:
+total 44
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2458 dic 10 02:19 abstract.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3283 dic 10 02:19 criterion.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4093 dic 10 02:19 exceptions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   752 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 25179 dic 10 02:19 resolution.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/rich:
+total 1068
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    890 dic 10 02:19 abc.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10324 dic 10 02:19 align.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6921 dic 10 02:19 ansi.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3263 dic 10 02:19 bar.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10686 dic 10 02:19 box.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5130 dic 10 02:19 cells.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10209 dic 10 02:19 _cell_widths.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  18211 dic 10 02:19 color.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1054 dic 10 02:19 color_triplet.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   7131 dic 10 02:19 columns.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 100849 dic 10 02:19 console.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1288 dic 10 02:19 constrain.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5502 dic 10 02:19 containers.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6487 dic 10 02:19 control.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   8257 dic 10 02:19 default_styles.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1025 dic 10 02:19 diagnose.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 140235 dic 10 02:19 _emoji_codes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2367 dic 10 02:19 emoji.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1064 dic 10 02:19 _emoji_replace.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    642 dic 10 02:19 errors.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2128 dic 10 02:19 _export_format.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    265 dic 10 02:19 _extension.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    799 dic 10 02:19 _fileno.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1683 dic 10 02:19 file_proxy.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2484 dic 10 02:19 filesize.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9586 dic 10 02:19 highlighter.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6090 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9656 dic 10 02:19 _inspect.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5031 dic 10 02:19 json.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3252 dic 10 02:19 jupyter.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  14004 dic 10 02:19 layout.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1056 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  15180 dic 10 02:19 live.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3521 dic 10 02:19 live_render.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  12468 dic 10 02:19 logging.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3225 dic 10 02:19 _log_render.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1236 dic 10 02:19 _loop.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   7896 dic 10 02:19 __main__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   8451 dic 10 02:19 markup.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5305 dic 10 02:19 measure.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1394 dic 10 02:19 _null_file.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4908 dic 10 02:19 padding.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    828 dic 10 02:19 pager.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3396 dic 10 02:19 palette.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   7063 dic 10 02:19 _palettes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  11157 dic 10 02:19 panel.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    423 dic 10 02:19 _pick.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  36391 dic 10 02:19 pretty.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   8162 dic 10 02:19 progress_bar.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  60408 dic 10 02:19 progress.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  12447 dic 10 02:19 prompt.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1391 dic 10 02:19 protocol.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo      0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5325 dic 10 02:19 _ratio.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    166 dic 10 02:19 region.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4431 dic 10 02:19 repr.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4602 dic 10 02:19 rule.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2843 dic 10 02:19 scope.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1591 dic 10 02:19 screen.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  24743 dic 10 02:19 segment.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4214 dic 10 02:19 spinner.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  19919 dic 10 02:19 _spinners.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    351 dic 10 02:19 _stack.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4424 dic 10 02:19 status.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1258 dic 10 02:19 styled.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  26990 dic 10 02:19 style.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  36371 dic 10 02:19 syntax.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  40049 dic 10 02:19 table.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3370 dic 10 02:19 terminal_theme.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  47552 dic 10 02:19 text.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3771 dic 10 02:19 theme.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    102 dic 10 02:19 themes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    417 dic 10 02:19 _timer.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  35861 dic 10 02:19 traceback.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9451 dic 10 02:19 tree.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  22755 dic 10 02:19 _win32_console.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1925 dic 10 02:19 _windows.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2783 dic 10 02:19 _windows_renderer.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3404 dic 10 02:19 _wrap.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/rich/__pycache__:
+total 1108
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1621 dic 10 02:19 abc.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  12292 dic 10 02:19 align.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9134 dic 10 02:19 ansi.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  11724 dic 10 02:19 box.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5591 dic 10 02:19 cells.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   7885 dic 10 02:19 _cell_widths.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  26566 dic 10 02:19 color.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1714 dic 10 02:19 color_triplet.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   8600 dic 10 02:19 columns.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 115313 dic 10 02:19 console.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2271 dic 10 02:19 constrain.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9244 dic 10 02:19 containers.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10797 dic 10 02:19 control.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10541 dic 10 02:19 default_styles.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 205989 dic 10 02:19 _emoji_codes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4091 dic 10 02:19 emoji.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1742 dic 10 02:19 _emoji_replace.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1858 dic 10 02:19 errors.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2362 dic 10 02:19 _export_format.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    550 dic 10 02:19 _extension.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    868 dic 10 02:19 _fileno.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3590 dic 10 02:19 file_proxy.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3070 dic 10 02:19 filesize.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9913 dic 10 02:19 highlighter.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   7028 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5222 dic 10 02:19 jupyter.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  20145 dic 10 02:19 live.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4763 dic 10 02:19 live_render.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  14087 dic 10 02:19 logging.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   4160 dic 10 02:19 _log_render.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1898 dic 10 02:19 _loop.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   9603 dic 10 02:19 markup.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6389 dic 10 02:19 measure.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3642 dic 10 02:19 _null_file.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6956 dic 10 02:19 padding.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1833 dic 10 02:19 pager.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5327 dic 10 02:19 palette.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5173 dic 10 02:19 _palettes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  12742 dic 10 02:19 panel.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    739 dic 10 02:19 _pick.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  40646 dic 10 02:19 pretty.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  10402 dic 10 02:19 progress_bar.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  75136 dic 10 02:19 progress.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   1805 dic 10 02:19 protocol.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6443 dic 10 02:19 _ratio.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    580 dic 10 02:19 region.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6637 dic 10 02:19 repr.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3843 dic 10 02:19 scope.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2497 dic 10 02:19 screen.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  28596 dic 10 02:19 segment.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   5938 dic 10 02:19 spinner.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  13192 dic 10 02:19 _spinners.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  33444 dic 10 02:19 style.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   2152 dic 10 02:19 styled.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  41005 dic 10 02:19 syntax.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  43895 dic 10 02:19 table.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3361 dic 10 02:19 terminal_theme.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  61267 dic 10 02:19 text.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   6345 dic 10 02:19 theme.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    327 dic 10 02:19 themes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  36253 dic 10 02:19 traceback.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   3349 dic 10 02:19 _wrap.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/tomli:
+total 48
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   314 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1072 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 25778 dic 10 02:19 _parser.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    26 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3235 dic 10 02:19 _re.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   254 dic 10 02:19 _types.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/tomli_w:
+total 20
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  169 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1072 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   26 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 6961 dic 10 02:19 _writer.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/truststore:
+total 76
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11413 dic 10 02:19 _api.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1320 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1086 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20503 dic 10 02:19 _macos.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2412 dic 10 02:19 _openssl.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 py.typed
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1130 dic 10 02:19 _ssl_constants.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 17993 dic 10 02:19 _windows.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/truststore/__pycache__:
+total 32
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 17558 dic 10 02:19 _api.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1465 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2279 dic 10 02:19 _openssl.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1112 dic 10 02:19 _ssl_constants.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3:
+total 188
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11372 dic 10 02:19 _collections.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 40408 dic 10 02:19 connectionpool.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20314 dic 10 02:19 connection.py
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 contrib
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8217 dic 10 02:19 exceptions.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8579 dic 10 02:19 fields.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2440 dic 10 02:19 filepost.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3333 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1115 dic 10 02:19 LICENSE.txt
+drwxrwxr-x 4 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 packages
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 19990 dic 10 02:19 poolmanager.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6691 dic 10 02:19 request.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 30641 dic 10 02:19 response.py
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 util
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    64 dic 10 02:19 _version.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib:
+total 96
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   957 dic 10 02:19 _appengine_environ.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11036 dic 10 02:19 appengine.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4528 dic 10 02:19 ntlmpool.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 17081 dic 10 02:19 pyopenssl.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 _securetransport
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34446 dic 10 02:19 securetransport.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7097 dic 10 02:19 socks.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/__pycache__:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1861 dic 10 02:19 _appengine_environ.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  211 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 7524 dic 10 02:19 socks.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport:
+total 36
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 17632 dic 10 02:19 bindings.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13922 dic 10 02:19 low_level.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages:
+total 44
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 backports
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     0 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34665 dic 10 02:19 six.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports:
+total 12
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1417 dic 10 02:19 makefile.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 5343 dic 10 02:19 weakref_finalize.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/__pycache__:
+total 48
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   212 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 41332 dic 10 02:19 six.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/__pycache__:
+total 184
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16501 dic 10 02:19 _collections.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20420 dic 10 02:19 connection.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 36556 dic 10 02:19 connectionpool.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 13506 dic 10 02:19 exceptions.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10426 dic 10 02:19 fields.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4031 dic 10 02:19 filepost.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3418 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 20485 dic 10 02:19 poolmanager.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  7307 dic 10 02:19 request.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 33981 dic 10 02:19 response.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   231 dic 10 02:19 _version.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util:
+total 128
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4901 dic 10 02:19 connection.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1155 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1605 dic 10 02:19 proxy.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   498 dic 10 02:19 queue.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3997 dic 10 02:19 request.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3510 dic 10 02:19 response.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 22050 dic 10 02:19 retry.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5758 dic 10 02:19 ssl_match_hostname.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 17460 dic 10 02:19 ssl_.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6895 dic 10 02:19 ssltransport.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10168 dic 10 02:19 timeout.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14296 dic 10 02:19 url.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5403 dic 10 02:19 wait.py
+
+./venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__:
+total 128
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4769 dic 10 02:19 connection.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1159 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1565 dic 10 02:19 proxy.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1365 dic 10 02:19 queue.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4196 dic 10 02:19 request.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3002 dic 10 02:19 response.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 21731 dic 10 02:19 retry.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 15390 dic 10 02:19 ssl_.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5084 dic 10 02:19 ssl_match_hostname.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10785 dic 10 02:19 ssltransport.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11152 dic 10 02:19 timeout.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 15808 dic 10 02:19 url.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4416 dic 10 02:19 wait.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info:
+total 92
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    84 dic 10 02:19 entry_points.txt
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo     4 dic 10 02:19 INSTALLER
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 licenses
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4672 dic 10 02:19 METADATA
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 65928 dic 10 02:19 RECORD
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    82 dic 10 02:19 WHEEL
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses:
+total 20
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11503 dic 10 02:19 AUTHORS.txt
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1093 dic 10 02:19 LICENSE.txt
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4096 dic 10 02:19 src
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src:
+total 4
+drwxrwxr-x 3 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pip
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip:
+total 4
+drwxrwxr-x 21 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 _vendor
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor:
+total 76
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 cachecontrol
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 certifi
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 dependency_groups
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 distlib
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 distro
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 idna
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 msgpack
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 packaging
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pkg_resources
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 platformdirs
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pygments
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 pyproject_hooks
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 requests
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 resolvelib
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 rich
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 tomli
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 tomli_w
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 truststore
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 urllib3
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/cachecontrol:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 558 dic 10 02:19 LICENSE.txt
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/certifi:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 989 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/dependency_groups:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1099 dic 10 02:19 LICENSE.txt
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/distlib:
+total 16
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 14531 dic 10 02:19 LICENSE.txt
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/distro:
+total 12
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 11325 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1541 dic 10 02:19 LICENSE.md
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/msgpack:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 614 dic 10 02:19 COPYING
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/packaging:
+total 20
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   197 dic 10 02:19 LICENSE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10174 dic 10 02:19 LICENSE.APACHE
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  1344 dic 10 02:19 LICENSE.BSD
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pkg_resources:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1023 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/platformdirs:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1089 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pygments:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1331 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pyproject_hooks:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1081 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/requests:
+total 12
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 10142 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/resolvelib:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 751 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/rich:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1056 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/tomli:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1072 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/tomli_w:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1072 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/truststore:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1086 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/urllib3:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1115 dic 10 02:19 LICENSE.txt
+
+./venv/lib/python3.12/site-packages/__pycache__:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4811 dic 10 02:19 _virtualenv.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info:
+total 24
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    4 dic 10 02:19 INSTALLER
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 licenses
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2351 dic 10 02:19 METADATA
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2793 dic 10 02:19 RECORD
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    0 dic 10 02:19 REQUESTED
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   11 dic 10 02:19 top_level.txt
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  190 dic 10 02:19 WHEEL
+
+./venv/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/licenses:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1101 dic 10 02:19 LICENSE
+
+./venv/lib/python3.12/site-packages/_yaml:
+total 8
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 1402 dic 10 02:19 __init__.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 4096 dic 10 02:19 __pycache__
+
+./venv/lib/python3.12/site-packages/_yaml/__pycache__:
+total 4
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 871 dic 10 02:19 __init__.cpython-312.pyc
+
+./venv/lib/python3.12/site-packages/yaml:
+total 2872
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    4883 dic 10 02:19 composer.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   28639 dic 10 02:19 constructor.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    3851 dic 10 02:19 cyaml.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    2837 dic 10 02:19 dumper.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   43006 dic 10 02:19 emitter.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    2533 dic 10 02:19 error.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    2445 dic 10 02:19 events.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   12311 dic 10 02:19 __init__.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    2061 dic 10 02:19 loader.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    1440 dic 10 02:19 nodes.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   25495 dic 10 02:19 parser.py
+drwxrwxr-x 2 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    4096 dic 10 02:19 __pycache__
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    6794 dic 10 02:19 reader.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   14190 dic 10 02:19 representer.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    9004 dic 10 02:19 resolver.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo   51279 dic 10 02:19 scanner.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    4165 dic 10 02:19 serializer.py
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo    2573 dic 10 02:19 tokens.py
+-rwxrwxr-x 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 2679264 dic 10 02:19 _yaml.cpython-312-x86_64-linux-gnu.so
+
+./venv/lib/python3.12/site-packages/yaml/__pycache__:
+total 288
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6534 dic 10 02:19 composer.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 34927 dic 10 02:19 constructor.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4635 dic 10 02:19 cyaml.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2471 dic 10 02:19 dumper.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 50175 dic 10 02:19 emitter.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4277 dic 10 02:19 error.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  4719 dic 10 02:19 events.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 15625 dic 10 02:19 __init__.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  3533 dic 10 02:19 loader.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  2218 dic 10 02:19 nodes.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 24723 dic 10 02:19 parser.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  8853 dic 10 02:19 reader.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 16926 dic 10 02:19 representer.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  9070 dic 10 02:19 resolver.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo 49861 dic 10 02:19 scanner.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  6208 dic 10 02:19 serializer.cpython-312.pyc
+-rw-rw-r-- 1 oxo-nuxun-80-08-unxnu-oxo oxo-nuxun-80-08-unxnu-oxo  5788 dic 10 02:19 tokens.cpython-312.pyc

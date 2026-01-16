@@ -1,0 +1,19 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "files.associations": {
+    "*.md": "markdown",
+    "*.jsonl": "json"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Default Dark Modern",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "extensions.ignoreRecommendations": false
+}

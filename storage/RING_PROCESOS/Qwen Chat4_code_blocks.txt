@@ -1,0 +1,532 @@
+------------------------------------------------------------
+Archivo "snippet_001.txt":
+
+1Logos vivido → Juris ritualizado → Texto legal → Código técnico → Algoritmo estadístico
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_002.py":
+
+bash12345678910111213141516# Estructura base de nodo fractal (ejemplo funcional en Python)class NodoFractal:    def __init__(self, id_nodo, semilla=None):        self.id = id_nodo        self.conexiones = []        self.coherencia = 0.0        self.semilladatos = semilla if semilla else generar_semilla_local()        def calcular_coherencia(self, datos_entrada):        """Algoritmo de filtro de coherencia basado en consistencia lógica y temporal"""        # Implementación mínima: verificar consistencia interna de los datos        return metrica_logica(datos_entrada) * peso_temporal(datos_entrada)        def replicar_estructura(self):        """Genera una réplica funcional del sistema completo"""        return serializar_estado_minimo(self)
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_003.txt":
+
+bash
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_004.txt":
+
+python12345678910111213141516def filtro_coherencia(datos):    """    Implementación técnica del filtro:    1. Verifica consistencia interna (lógica proposicional)    2. Verifica consistencia temporal (coherencia histórica)    3. Evalúa densidad semántica (ratio información/ruido)    """    puntuacion_logica = analizar_consistencia(datos)    puntuacion_temporal = verificar_continuidad(datos)    puntuacion_semantica = calcular_densidad(datos)        coherencia_total = (0.4 * puntuacion_logica +                        0.3 * puntuacion_temporal +                        0.3 * puntuacion_semantica)        return coherencia_total > UMBRAL_MINIMO  # UMBRAL_MINIMO calibrado empíricamente
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_005.txt":
+
+python
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_006.txt":
+
+bash12345678910111213# Estructura de directorios funcionalneurobit-core/├── nodos/               # Implementación de nodos fractales├── filtros/             # Módulos de coherencia├── protocolos/          # Comunicación entre nodos├── data/                # Almacenamiento local cifrado└── interface-cli/       # Interfaz de terminal (prioridad 1)# Comandos esenciales para primera versión funcional$ neurobit init --seed-mode=holographic$ neurobit node start --port 8080 --coherence-threshold=0.75$ neurobit filter train --dataset=corpus_filosofico.txt$ neurobit network connect --bootstrap-node=10.0.0.15
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_007.txt":
+
+12345678910111213141516171819ESTACIÓN CENTRAL (main_hub.py)│├── /modules/│   ├── dispatcher.py       # Formateo y empaquetado│   ├── validator.py        # Validación local con LLM│   ├── sender.py           # Gestión de envíos│   └── context_expander.py # Polisemia y metadatos│├── /config/│   ├── system_vars.yaml    # Variables centrales y justificaciones│   └── node_roles.json     # Roles y operaciones por nodo│├── /data/│   └── coherence_db/       # Base de coherencia fractal│└── interface/              # Frontend minimalista    ├── index.html    ├── styles.css    └── control.js
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_008.txt":
+
+system_vars.yaml
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_009.txt":
+
+yaml12345678910111213141516# VARIABLES CENTRALES - JUSTIFICACIÓN ONTOLÓGICA Y TÉCNICALOGOS_COHERENCE_THRESHOLD:  value: 0.85  justification: "Umbral mínimo de coherencia para validar mensajes según tesis de Soberanía Consciente - Sección 'Semántica Operativa y el Verbo como Acto'"NODE_POLISEMIA_FACTOR:  value: 1.3  justification: "Factor de expansión contextual para metadatos - Basado en el principio de 'Geometría de la Unidad' de John Dee (Monas Hieroglyphica)"LOCAL_LLM_ENDPOINT:  value: "http://localhost:11434/api/generate"  justification: "Conexión a Llama.cpp local - Garantiza soberanía cognitiva evitando dependencia de servidores corporativos"APACHE_STATIC_DIR:  value: "/var/www/neurobit_local"  justification: "Directorio para Apache Server - Permite operación 100% local, evitando vigilancia algorítmica"
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_010.txt":
+
+yaml
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_011.txt":
+
+context_expander.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_012.py":
+
+python12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667import yamlimport jsonfrom collections import defaultdictclass ContextExpander:    """Expande contexto mediante polisemia fractal según metadatos"""        def __init__(self, config_path="config/system_vars.yaml"):        with open(config_path, 'r') as f:            self.config = yaml.safe_load(f)        self.coherence_threshold = self.config['LOGOS_COHERENCE_THRESHOLD']['value']        def expand_context(self, base_message, metadata_tags):        """        Expande el contexto del mensaje usando metadatos y principio de polisemia        Retorna versión ampliada solo si supera umbral de coherencia        """        expanded_context = {            "original": base_message,            "tags": metadata_tags,            "semantic_expansions": [],            "coherence_score": 0.0        }                # Aplicar expansión fractal según tags        for tag in metadata_tags:            if tag.startswith("logos:"):                expanded_context["semantic_expansions"].append(                    self._apply_logos_expansion(base_message, tag)                )            elif tag.startswith("node:"):                expanded_context["semantic_expansions"].append(                    self._apply_node_expansion(base_message, tag)                )                # Calcular coherencia        expanded_context["coherence_score"] = self._calculate_coherence(expanded_context)                # Retornar solo si supera umbral        if expanded_context["coherence_score"] >= self.coherence_threshold:            return expanded_context        return {"error": "Coherencia insuficiente para expansión"}        def _apply_logos_expansion(self, message, tag):        """Aplica expansión según principios del Logos restaurado"""        principles = {            "logos:unity": "Integración de opuestos según Heráclito",            "logos:verb": "El verbo como acto creador según Eliphas Lévi",            "logos:quantum": "No-localidad como principio unificador"        }        principle = principles.get(tag, "Principio no definido")        return {            "principle": principle,            "expanded_message": f"{message} [Expansión Logos: {principle}]"        }        def _calculate_coherence(self, context):        """Algoritmo simple de coherencia basado en densidad semántica"""        base_length = len(context["original"])        expansions_length = sum(len(exp.get("expanded_message", "")) for exp in context["semantic_expansions"])                if base_length == 0:            return 0.0                    # Coherencia aumenta con densidad significativa pero no redundancia        semantic_density = expansions_length / base_length        return min(1.0, max(0.0, 0.7 + (semantic_density - 1.0) * 0.1))
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_013.txt":
+
+interface/index.html
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_014.html":
+
+html12345678910111213141516171819202122232425262728293031323334<!DOCTYPE html><html lang="es"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Estación Central Neurobit</title>    <link rel="stylesheet" href="styles.css"></head><body>    <div class="container">        <header>            <h1>ESTACIÓN CENTRAL "THE SOFISTAS"</h1>            <p>Sistema de Arquitectura Fractal Recursiva - Versión Local 1.0</p>        </header>                <div class="control-panel">            <textarea id="messageInput" placeholder="Introduce tu mensaje con metadatos (ej: #logos:unity #node:validation)"></textarea>            <button id="processBtn">Procesar con Polisemia Fractal</button>        </div>                <div class="results-panel">            <h2>Resultado de Expansión:</h2>            <pre id="resultOutput">Esperando mensaje...</pre>        </div>                <div class="node-status">            <h3>Estados de Nodos:</h3>            <div id="nodeStatus">Conectando nodos locales...</div>        </div>    </div>        <script src="control.js"></script></body></html>
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_015.txt":
+
+html
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_016.js":
+
+javascript123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136// control.js - Gestión de nodos mediante pestañasconst nodeManager = {    nodes: {},    initialize: function() {        // Detectar si esta es la pestaña principal        if (!localStorage.getItem('mainNode')) {            localStorage.setItem('mainNode', Date.now().toString());            this.isMainNode = true;            document.title = "✧ ESTACIÓN PRINCIPAL - The Sofistas ✧";        } else {            this.isMainNode = false;            const nodeId = 'node_' + Math.random().toString(36).substr(2, 5);            this.registerNode(nodeId);            document.title = `✧ NODO ${nodeId} ✧`;        }                // Comunicación entre pestañas mediante localStorage        window.addEventListener('storage', this.handleStorageEvent.bind(this));                // Enviar estado inicial si es nodo principal        if (this.isMainNode) {            this.broadcastSystemState();        }                // Configurar botón de procesamiento        document.getElementById('processBtn').addEventListener('click', () => {            this.processMessage();        });                // Actualizar estado cada 5 segundos        setInterval(() => this.updateNodeStatus(), 5000);    },        registerNode: function(nodeId) {        const nodeInfo = {            id: nodeId,            timestamp: Date.now(),            role: this.assignRoleBasedOnTime(),            status: 'activo'        };                // Guardar en localStorage para que otros nodos lo detecten        localStorage.setItem(`node_${nodeId}`, JSON.stringify(nodeInfo));        this.nodes[nodeId] = nodeInfo;                return nodeInfo;    },        assignRoleBasedOnTime: function() {        // Asignación de roles basada en momento de conexión (fractal)        const second = new Date().getSeconds();        const roles = ['validator', 'expander', 'dispatcher', 'sender'];        return roles[second % roles.length];    },        processMessage: function() {        const message = document.getElementById('messageInput').value;        const tags = message.match(/#\w+:\w+/g) || [];                if (this.isMainNode) {            // Distribuir trabajo a nodos especializados            tags.forEach(tag => {                const role = tag.split(':')[0].replace('#', '');                this.delegateTask(role, { message, tag });            });        } else {            // Procesar localmente si este nodo tiene el rol adecuado            const myRole = Object.values(this.nodes).find(n => n.id === Object.keys(this.nodes)[0])?.role;            if (tags.some(tag => tag.includes(myRole))) {                this.localProcess(message, tags);            }        }    },        delegateTask: function(role, taskData) {        // Simular delegación a nodos específicos        console.log(`[DELEGACIÓN] Rol ${role} - Tarea:`, taskData);                // En implementación real, esto usaría IndexedDB o API de comunicación        localStorage.setItem(`task_${role}_${Date.now()}`, JSON.stringify(taskData));    },        localProcess: function(message, tags) {        // Procesamiento local simulado        const result = {            original: message,            processed_by: Object.keys(this.nodes)[0],            expansions: tags.map(tag => ({                tag: tag,                expanded: `${message} [Procesado por nodo ${tag}]`            })),            timestamp: Date.now()        };                document.getElementById('resultOutput').textContent =             JSON.stringify(result, null, 2);    },        updateNodeStatus: function() {        // Actualizar visualización de nodos activos        const statusDiv = document.getElementById('nodeStatus');        let html = '<ul>';                Object.values(this.nodes).forEach(node => {            html += `<li>NODO ${node.id}: <span class="${node.status}">${node.role.toUpperCase()}</span></li>`;        });                html += '</ul>';        statusDiv.innerHTML = html;    },        handleStorageEvent: function(e) {        // Manejar eventos de otras pestañas        if (e.key && e.key.startsWith('node_')) {            const nodeId = e.key.replace('node_', '');            if (e.newValue) {                this.nodes[nodeId] = JSON.parse(e.newValue);            } else {                delete this.nodes[nodeId];            }        }    },        broadcastSystemState: function() {        localStorage.setItem('systemState', JSON.stringify({            mainNode: localStorage.getItem('mainNode'),            timestamp: Date.now(),            activeNodes: Object.keys(this.nodes).length        }));    }};// Iniciar al cargar la páginadocument.addEventListener('DOMContentLoaded', () => {    nodeManager.initialize();});
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_017.txt":
+
+javascript
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_018.py":
+
+bash1234567891011121314151617181920212223242526272829303132333435# 1. Estructura de directoriosmkdir -p neurobit_local/{modules,config,data/coherence_db,interface}cd neurobit_local# 2. Crear archivos de configuracióncat > config/system_vars.yaml << 'EOF'LOGOS_COHERENCE_THRESHOLD:  value: 0.85  justification: "Umbral mínimo de coherencia desde tesis Soberanía Consciente"NODE_POLISEMIA_FACTOR:  value: 1.3  justification: "Factor expansión contextual basado en Monas Hieroglyphica"LOCAL_LLM_ENDPOINT:  value: "http://localhost:11434/api/generate"  justification: "Conexión a Llama.cpp local para soberanía cognitiva"APACHE_STATIC_DIR:  value: "/var/www/neurobit_local"  justification: "Directorio Apache - Operación 100% local"EOF# 3. Instalar dependencias mínimas (Python)sudo apt updatesudo apt install python3 python3-pip apache2 -ypip3 install pyyaml flask# 4. Configurar Apache para acceso localsudo ln -s $(pwd) /var/www/neurobit_localsudo chown -R www-www-data /var/www/neurobit_localsudo systemctl restart apache2# 5. Iniciar servidor local (desde la carpeta raíz)python3 -c "import http.server, socketserver, os; os.chdir('interface'); handler = http.server.SimpleHTTPRequestHandler; with socketserver.TCPServer(('localhost', 8000), handler) as httpd: print('Servidor local en http://localhost:8000'); httpd.serve_forever()"
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_019.txt":
+
+bash1234# Crear en modules/validator.py# - Conexión a Llama.cpp local# - Algoritmo de coherencia basado en tu tesis# - Sistema de retroalimentación para auto-ajuste de umbrales
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_020.txt":
+
+fragmentar.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_021.txt":
+
+parte_001.txt
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_022.txt":
+
+merge_parts.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_023.txt":
+
+compile_project.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_024.txt":
+
+msg_builder.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_025.txt":
+
+simon_validator.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_026.txt":
+
+yaml12345[FRAGMENT_ID]: 1[TITLE]: "Logia Transparente de la Verdad"[AUTHOR]: MARIANO[SOURCE]: registro_2025-05-01_mariano.txt[CONTENT]: ...
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_027.txt":
+
+formateador.html
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_028.txt":
+
+tareas.html
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_029.txt":
+
+bitacora_welcome.html
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_030.txt":
+
+config/neurobit_config.yaml
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_031.txt":
+
+local_llm_test.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_032.txt":
+
+123456789101112131415161718192021222324NEUROBIT_CENTRAL_STATION/├── config/│   ├── system_vars.yaml       # Variables centrales con justificación ontológica│   └── node_roles.json        # Roles y responsabilidades por nodo├── core/│   ├── fragment_manager.py    # Gestión unificada de fragmentos (CRUD)│   ├── coherence_filter.py    # Filtro de coherencia mejorado│   └── message_protocol.py    # Protocolo NEUROBIT completo├── tools/│   ├── compile_project.py     # Versión mejorada con metadatos│   ├── local_llm_connector.py # Conector estandarizado para LLM local│   └── task_manager.py        # Gestión persistente de tareas├── interface/│   ├── index.html             # Punto de entrada unificado│   ├── modules/│   │   ├── formateador.js     # Versión persistente con localStorage│   │   ├── tareas.js          # Sistema con checkboxes persistentes│   │   └── bitacora.js        # Visualizador de bitácora│   └── api/│       └── neurobit_api.py    # API REST minimalista (Flask)└── data/    ├── fragments/             # Almacenamiento estandarizado    ├── tasks/                 # Tareas con estado persistente    └── logs/                  # Registros de operación
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_033.txt":
+
+config/system_vars.yaml
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_034.txt":
+
+yaml12345678910111213141516# VARIABLES CENTRALES - JUSTIFICACIÓN ONTOLÓGICA Y TÉCNICALOGOS_COHERENCE_THRESHOLD:  value: 0.85  justification: "Umbral mínimo de coherencia según tesis de Soberanía Consciente"FRAGMENT_NAMING_CONVENTION:  value: "parte_{index:03d}.txt"  justification: "Convención fractal para garantizar orden lógico y reconstrucción"LOCAL_LLM_ENDPOINT:  value: "http://localhost:11434/api/generate"  justification: "Conexión a Llama.cpp local - Soberanía cognitiva"PERSISTENCE_METHOD:  value: "localStorage + file_backup"  justification: "Doble persistencia para evitar pérdida de estado"
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_035.txt":
+
+core/coherence_filter.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_036.py":
+
+python1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980import yamlimport refrom pathlib import Pathclass CoherenceFilter:    """Valida coherencia según principios del Logos restaurado"""        def __init__(self, config_path="config/system_vars.yaml"):        with open(config_path, 'r') as f:            self.config = yaml.safe_load(f)        self.threshold = self.config['LOGOS_COHERENCE_THRESHOLD']['value']        def validate_message(self, message_data):        """Valida mensaje completo con metadatos NEUROBIT"""        # Extraer contenido si viene en formato YAML        if isinstance(message_data, str) and message_data.startswith("---"):            try:                msg_yaml = yaml.safe_load(message_data)                content = msg_yaml.get('CONTENT', '')            except:                content = message_data        else:            content = message_data.get('CONTENT', message_data) if isinstance(message_data, dict) else message_data                # Calcular puntuación de coherencia        scores = {            'logical': self._check_logical_consistency(content),            'temporal': self._check_temporal_coherence(content),            'semantic': self._check_semantic_density(content)        }                overall_score = sum(scores.values()) / len(scores)        is_coherent = overall_score >= self.threshold                return {            'is_coherent': is_coherent,            'score': overall_score,            'threshold': self.threshold,            'details': scores,            'message': content[:100] + "..." if len(content) > 100 else content        }        def _check_logical_consistency(self, text):        """Verifica consistencia lógica básica"""        # Implementación minimalista - expandir con reglas específicas        contradictions = [            ("no", "sí"),            ("nunca", "siempre"),            ("todos", "ninguno")        ]                text_lower = text.lower()        contradiction_count = 0                for neg, pos in contradictions:            if neg in text_lower and pos in text_lower:                contradiction_count += 1                return max(0.0, 1.0 - (contradiction_count * 0.3))        def _check_temporal_coherence(self, text):        """Verifica consistencia temporal"""        # Implementación básica - expandir con análisis de secuencias temporales        temporal_markers = ["antes", "después", "luego", "mientras", "cuando"]        return 0.8 if any(marker in text.lower() for marker in temporal_markers) else 0.6        def _check_semantic_density(self, text):        """Verifica densidad de significado vs ruido"""        words = re.findall(r'\b\w+\b', text.lower())        if not words:            return 0.0                # Palabras vacías en español        stop_words = {"el", "la", "los", "las", "un", "una", "unos", "unas",                      "y", "o", "pero", "porque", "que", "como", "con", "para"}                meaningful_words = [w for w in words if w not in stop_words and len(w) > 2]        density = len(meaningful_words) / len(words)                return min(1.0, density * 1.5)  # Normalizar y amplificar
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_037.txt":
+
+interface/modules/tareas.js
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_038.txt":
+
+javascript123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148class TaskManager {    constructor() {        this.tasks = this.loadTasks();        this.initUI();    }        loadTasks() {        // Cargar desde localStorage primero        const stored = localStorage.getItem('neurobit_tasks');        if (stored) return JSON.parse(stored);                // Si no existe, cargar desde archivo (en implementación completa)        return [            { id: 'task1', text: 'Actualizar formateador.html', completed: false, timestamp: new Date().toISOString() },            { id: 'task2', text: 'Probar LLM local con bitácora', completed: false, timestamp: new Date().toISOString() }        ];    }        saveTasks() {        localStorage.setItem('neurobit_tasks', JSON.stringify(this.tasks));                // En implementación completa: guardar también en archivo local        // fetch('/api/save-tasks', { method: 'POST', body: JSON.stringify(this.tasks) });    }        addTask(text) {        const newTask = {            id: 'task_' + Date.now(),            text: text.trim(),            completed: false,            timestamp: new Date().toISOString()        };                this.tasks.push(newTask);        this.saveTasks();        this.renderTasks();    }        toggleTask(id) {        const task = this.tasks.find(t => t.id === id);        if (task) {            task.completed = !task.completed;            task.lastUpdated = new Date().toISOString();            this.saveTasks();            this.renderTasks();        }    }        initUI() {        // Configurar eventos        document.getElementById('addTaskBtn').addEventListener('click', () => {            const input = document.getElementById('newTaskInput');            const text = input.value.trim();            if (text) {                this.addTask(text);                input.value = '';            }        });                // Permitir Enter para añadir tarea        document.getElementById('newTaskInput').addEventListener('keypress', (e) => {            if (e.key === 'Enter') {                document.getElementById('addTaskBtn').click();            }        });                // Renderizar tareas iniciales        this.renderTasks();    }        renderTasks() {        const pendingList = document.getElementById('pendingTasks');        const completedList = document.getElementById('completedTasks');                // Limpiar listas        pendingList.innerHTML = '';        completedList.innerHTML = '';                // Separar tareas completadas y pendientes        const pendingTasks = this.tasks.filter(t => !t.completed);        const completedTasks = this.tasks.filter(t => t.completed);                // Renderizar tareas pendientes        pendingTasks.forEach(task => {            const li = this.createTaskElement(task);            pendingList.appendChild(li);        });                // Renderizar tareas completadas        completedTasks.forEach(task => {            const li = this.createTaskElement(task);            completedList.appendChild(li);        });                // Actualizar contadores        document.getElementById('pendingCount').textContent = pendingTasks.length;        document.getElementById('completedCount').textContent = completedTasks.length;    }        createTaskElement(task) {        const li = document.createElement('li');        li.className = task.completed ? 'completed' : '';        li.innerHTML = `            <input type="checkbox" ${task.completed ? 'checked' : ''} data-id="${task.id}">            <span class="task-text">${this.escapeHtml(task.text)}</span>            <span class="task-date">${new Date(task.timestamp).toLocaleDateString()}</span>        `;                li.querySelector('input[type="checkbox"]').addEventListener('change', (e) => {            this.toggleTask(task.id);        });                return li;    }        escapeHtml(unsafe) {        return unsafe            .replace(/&/g, "&amp;")            .replace(/</g, "&lt;")            .replace(/>/g, "&gt;")            .replace(/"/g, "&quot;")            .replace(/'/g, "&#039;");    }}// Inicializar cuando el DOM esté listodocument.addEventListener('DOMContentLoaded', () => {    window.taskManager = new TaskManager();        // Botón para exportar a .txt    document.getElementById('exportTasksBtn').addEventListener('click', () => {        const content = window.taskManager.tasks.map(t =>             `[${t.completed ? 'X' : ' '}] ${t.text} (${new Date(t.timestamp).toLocaleString()})`        ).join('\n');                const blob = new Blob([content], { type: 'text/plain' });        const url = URL.createObjectURL(blob);        const a = document.createElement('a');        a.href = url;        a.download = `tareas_neurobit_${new Date().toISOString().split('T')[0]}.txt`;        document.body.appendChild(a);        a.click();        setTimeout(() => {            document.body.removeChild(a);            URL.revokeObjectURL(url);        }, 0);    });});const pendingList: HTMLElement
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_039.txt":
+
+const pendingList: HTMLElement
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_040.py":
+
+bash123456789101112131415161718192021# 1. Estructura base de directoriosmkdir -p NEUROBIT_CENTRAL_STATION/{config,core,tools,interface/modules,interface/api,data/{fragments,tasks,logs}}# 2. Mover y organizar archivos existentescp tools/*.py NEUROBIT_CENTRAL_STATION/tools/cp formateador.html NEUROBIT_CENTRAL_STATION/interface/cp tareas.html NEUROBIT_CENTRAL_STATION/interface/# 3. Instalar dependencias mínimassudo apt updatesudo apt install python3 python3-pip apache2 -ypip3 install pyyaml flask requests# 4. Configurar Apache para acceso localsudo ln -s $(pwd)/NEUROBIT_CENTRAL_STATION/interface /var/www/html/neurobitsudo chown -R $USER:$USER /var/www/html/neurobitsudo systemctl restart apache2# 5. Iniciar servidor API (en una terminal separada)cd NEUROBIT_CENTRAL_STATIONpython3 -c "from interface.api.neurobit_api import app; app.run(host='0.0.0.0', port=5000, debug=True)"
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_041.txt":
+
+coherence_filter.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_042.txt":
+
+tareas.js
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_043.txt":
+
+local_llm_connector.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_044.txt":
+
+neurobit_api.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_045.txt":
+
+bash123456# Arquitectura minimalista (viable en tu i7 actual)educ_kids_local/├── visual_builder/       # Interfaz de arrastrar y soltar (HTML5 Canvas)├── logic_core/           # Motor de eventos tipo "Cuando se hace clic..."├── coherence_validator/  # Tu "Simon" mejorado (valida coherencia sin internet)└── quantum_memory/       # Sistema de respaldo holográfico (cada fragmento reconstruye el Todo)
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_046.css":
+
+bash1234567891011121314151617181920212223242526# Paso 1: Sincronizar usuarios en pestañas (sin plataformas corporativas)# Crear script minimalista que:#   - Captura URL de pestaña actual (con extensión simple de Chrome)#   - Formatea para curl usando tu msg_builder.py existente#   - Guarda en ~/neurobit_tabs/usuario_actual.txt# Paso 2: Sistema de coordinación "Meta Dispatcher" (versión 0.1)$ cat > dispatcher.sh << 'EOF'#!/bin/bash# Coordinador minimalista entre Eduardo/Daiana/Sophia/AdrianTAB_DIR="$HOME/neurobit_tabs"while true; do  for user in Eduardo Daiana Sophia Adrian; do    if [ -f "$TAB_DIR/$user.url" ]; then      curl -s "$(cat $TAB_DIR/$user.url)" | ./tools/msg_builder.py --user $user      rm "$TAB_DIR/$user.url"  # Auto-limpieza tras procesar    fi  done  sleep 30  # Intervalo respetuoso con tu cansanciodoneEOFchmod +x dispatcher.sh# Paso 3: Ejecutar en background (sin agotarte)nohup ./dispatcher.sh > dispatcher.log 2>&1 &
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_047.js":
+
+html12345678910111213141516171819202122<!-- interfaz minimalista (funciona en cualquier navegador sin internet) --><div class="fractal-canvas">  <!-- Capa 1: Diseño (como Google Slides) -->  <div class="front-layer" id="designSpace">    Arrastra imágenes/textos aquí  </div>    <!-- Capa 2: Lógica (bloques tipo Lego) -->  <div class="back-layer" id="logicSpace" style="display:none;">    <block class="event" data-trigger="click">Al hacer clic</block>    <block class="action" data-effect="animate">Mover a X,Y</block>  </div></div><script>// Sistema de coherencia incorporado (tu "Simon" mejorado)function validateChildLogic(blocks) {  // Tu algoritmo de coherencia desde compilado_neurobit_central_station  const coherenceScore = calculateLogosCoherence(blocks);  return coherenceScore > 0.75; // Umbral ajustable según edad}</script>
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_048.txt":
+
+tools/fragmentar.py
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_049.sh":
+
+bash12345678910# 1. Mover tus herramientas existentes a estructura unificadamkdir -p ~/neurobit_edu/{core,interface,users}cp tools/*.py ~/neurobit_edu/core/cp formateador.html ~/neurobit_edu/interface/# 2. Crear script de sincronización de pestañas (usando tu conocimiento en bash)echo "Extensión minimalista de Chrome: 10 líneas de JS para guardar URL actual a ~/neurobit_tabs/"# 3. Iniciar servidor local (tu OpenLiteSpeed actual)olsctl restart
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_050.txt":
+
+dispatcher.sh
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_051.txt":
+
+yaml12345entity_id: HUMANO_TRON | SOPHIA | SIMON | METAperspectiva: técnica | pedagógica | coordinación | validacióncontexto: PROLOGUE | RONDA_1 | RONDA_2fin: definir | coordinar | aprender | validarreferente: ontológico | técnico | simbólico
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_052.txt":
+
+memoria_sagrada_eva:
+  id: ms_eva_v1
+  title: "Memoria_Sagrada_EVA - Glosario y Registro"
+  description: "Repositorio de acepciones, marcos semánticos y versiones para NEUROBIT"
+  created_at: 2025-12-26T00:00:00Z
+  owner: TRON
+  entries:
+    - entry_id: "entidad_v1"
+      term: "ENTIDAD"
+      scope: "NEUROBIT::BASE"
+      intensional_definition: "Ser identificable que emite/procesa/recibe verbo, trazable por ID/perspectiva/fin"
+      extensional_notes: ["incluye LLMs locales","incluye humanos","excluye valoraciones morales por defecto"]
+      provenance:
+        author: "TRON"
+        approved_by: ["EVA","SIMON"]
+        timestamp: 2025-12-26T00:10:00Z
+      version: 1
+      deprecated: false
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_053.json":
+
+{
+  "message_id":"msg_20251226_0001",
+  "entity_id":"HUMANO_TRON",
+  "perspective":"coordinacion",
+  "context":"RONDA_2",
+  "plane": {"M": 0.72, "E": -0.45},
+  "intention":"definir_protocolo",
+  "content":"Texto original del emisor ...",
+  "analysis": {
+    "coherence_score": 0.72,
+    "emotional_score": -0.45,
+    "issues":["tono_hostil","ambiguedad_termino: 'norma'"],
+    "suggested_reformulation":"Reformular para separar norma/ley y declarar 'marco_semantico:normativo'..."
+  },
+  "provenance":{"created":"2025-12-26T00:20:00Z", "signed_by":"SIMON"},
+  "action":"propose_reformulation" 
+}
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_054.txt":
+
+message_envelope_v1:
+  message_id: string
+  entity_id: string
+  perspective: enum [tecnica, coordinación, pedagógica, validación]
+  context: string
+  plane:
+    M: number   # -1.0 .. 1.0
+    E: number   # -1.0 .. 1.0
+  intention: string
+  content: string
+  analysis:
+    coherence_score: number
+    emotional_score: number
+    identified_ambiguities:
+      - term: string
+        senses:
+          - id: string
+            definition: string
+        recommended_sense_id: string
+    suggested_reformulation: string
+    evidence: 
+      - type: string
+        snippet: string
+  provenance:
+    created: timestamp
+    signed_by: string
+  action: enum [store, propose_reformulation, escalate_human, notify, none]
+  human_approval:
+    approved: boolean
+    approver_id: string
+    timestamp: timestamp
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_055.py":
+
+python123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166167168169170171172173174175176177178179180181182183184185186187188189190191192193194195196197198199200201202203204205206207208209210211212213214215216217218219220221222223224225226227228229230231232233234235236237238239240241242243244245246247248249250251252253254255256257258259260261262263264265266267268269270271272273274275276277278279280281282283284285286287288289290291292293294295296297298299300301302303304305306307308309310311312313314315316317318319320321322323324325326327328329330331332333334335336337338339340341342343344345346347348349350351352353354355356357358359360361362363364365366367368369370371372373374375376377378379380381382383384385386387388389390391392393394#!/usr/bin/env python3"""coherence_filter.pyImplementación mínima para calcular scores Mental (M) y Emocional (E)según modelo NEUROBIT v1.0Dependencias mínimas:pip install nltk spacy textblob sentencepieceConfiguración inicial:python -m spacy download es_core_news_sm"""import reimport jsonimport yamlimport mathfrom datetime import datetimefrom typing import Dict, List, Tuple, Optionalimport nltkfrom nltk.sentiment import SentimentIntensityAnalyzerimport spacyfrom textblob import TextBlob# Descargar recursos necesarios (solo primera ejecución)try:    nltk.data.find('vader_lexicon')except LookupError:    nltk.download('vader_lexicon')try:    nlp = spacy.load("es_core_news_sm")except OSError:    print("ERROR: Modelo spaCy no encontrado. Ejecutar: python -m spacy download es_core_news_sm")    exit(1)class CoherenceFilter:    """Calcula scores Mental (M) y Emocional (E) para mensajes según modelo NEUROBIT"""        def __init__(self, glossary_path: str = "config/memoria_sagrada_eva.yaml"):        """Inicializa con glosario de términos y modelos de NLP"""        self.glossary = self._load_glossary(glossary_path)        self.sia = SentimentIntensityAnalyzer()            def _load_glossary(self, path: str) -> Dict:        """Carga glosario desde YAML con manejo de errores"""        try:            with open(path, 'r', encoding='utf-8') as f:                return yaml.safe_load(f)        except FileNotFoundError:            print(f"ADVERTENCIA: Glosario no encontrado en {path}. Usando diccionario vacío.")            return {"entries": []}        except Exception as e:            print(f"ERROR al cargar glosario: {e}")            return {"entries": []}        def calculate_plane_scores(self, text: str) -> Tuple[float, float]:        """        Calcula scores Mental (M) y Emocional (E) según modelo NEUROBIT        Retorna: (M_score, E_score) en rango [-1.0, 1.0]        """        # Calcular score mental (coherencia lógica)        m_score = self._calculate_mental_score(text)                # Calcular score emocional (carga afectiva)        e_score = self._calculate_emotional_score(text)                return (round(m_score, 2), round(e_score, 2))        def _calculate_mental_score(self, text: str) -> float:        """Calcula score Mental (M) basado en coherencia lógica y semántica"""        if not text.strip():            return 0.0                    # 1. Análisis de coherencia lógica básica        logical_coherence = self._assess_logical_coherence(text)                # 2. Detección de ambigüedades terminológicas        ambiguity_score = self._assess_ambiguity(text)                # 3. Densidad semántica (información útil vs ruido)        semantic_density = self._calculate_semantic_density(text)                # Combinar métricas con pesos definidos        m_score = (            0.5 * logical_coherence +            0.3 * (1 - ambiguity_score) +  # Menos ambigüedad = mejor score            0.2 * semantic_density        )                # Normalizar a rango [-1.0, 1.0] con límites realistas        return max(-1.0, min(1.0, m_score * 1.5 - 0.5))        def _calculate_emotional_score(self, text: str) -> float:        """Calcula score Emocional (E) basado en carga afectiva y señales de trauma"""        if not text.strip():            return 0.0                    # 1. Análisis de sentimiento básico (VADER)        sentiment = self.sia.polarity_scores(text)                # 2. Detección de señales de trauma/estrés        trauma_signals = self._detect_trauma_signals(text)                # 3. Intensidad emocional (valencia + activación)        emotional_intensity = self._assess_emotional_intensity(text)                # Combinar métricas        # Sentimiento positivo aumenta E, negativo disminuye        # Señales de trauma reducen drásticamente E        e_score = sentiment['compound'] * (1 - trauma_signals * 0.7) * 0.8                # Ajustar por intensidad (emociones muy intensas reducen control)        if emotional_intensity > 0.7:            e_score *= 0.6                return max(-1.0, min(1.0, e_score))        def _assess_logical_coherence(self, text: str) -> float:        """Evalúa coherencia lógica básica del texto"""        # Tokenizar y analizar estructura        sentences = nltk.sent_tokenize(text)        if not sentences:            return 0.0                    # 1. Detección de contradicciones básicas        contradiction_count = 0        contradiction_pairs = [            ("no", "sí"), ("nunca", "siempre"), ("todos", "ninguno"),            ("afirmo", "niego"), ("verdad", "mentira"), ("bien", "mal")        ]                text_lower = text.lower()        for neg, pos in contradiction_pairs:            if neg in text_lower and pos in text_lower:                contradiction_count += 1                # 2. Conectores lógicos (mayor coherencia con conectores adecuados)        logical_connectors = ["por lo tanto", "sin embargo", "además", "en consecuencia",                              "por otro lado", "finalmente", "en resumen"]        connector_count = sum(1 for conn in logical_connectors if conn in text_lower)                # Calcular score        base_score = 0.7  # Punto de partida realista        base_score -= min(0.5, contradiction_count * 0.15)  # Penalizar contradicciones        base_score += min(0.3, connector_count * 0.05)     # Recompensar conectores                return max(0.0, min(1.0, base_score))        def _assess_ambiguity(self, text: str) -> float:        """Evalúa nivel de ambigüedad terminológica (0 = claro, 1 = muy ambiguo)"""        ambiguous_terms = 0        total_terms = 0                # Términos comúnmente ambiguos en español        ambiguous_keywords = [            "norma", "ley", "poder", "libertad", "verdad", "justicia",             "derecho", "realidad", "ser", "deber", "bien", "mal"        ]                text_lower = text.lower()        for term in ambiguous_keywords:            if term in text_lower:                ambiguous_terms += text_lower.count(term)                # Contar palabras totales        words = re.findall(r'\b\w+\b', text_lower)        total_terms = len(words)                if total_terms == 0:            return 0.0                    # Calcular ratio de ambigüedad        ambiguity_ratio = ambiguous_terms / total_terms                # Ajustar con detección de polisemia usando spaCy        doc = nlp(text)        polysemic_count = 0        for token in doc:            if token.pos_ in ["NOUN", "VERB", "ADJ"] and len(token.text) > 3:                # Palabras con múltiples acepciones tienden a ser más largas                if len(token.text) > 6:                    polysemic_count += 1                polysemic_ratio = polysemic_count / max(1, len(doc))                return min(1.0, ambiguity_ratio * 0.7 + polysemic_ratio * 0.3)        def _calculate_semantic_density(self, text: str) -> float:        """Calcula densidad de significado útil vs ruido"""        # Usar TextBlob para análisis de contenido        blob = TextBlob(text)                # Palabras vacías en español (stopwords)        stopwords = set([            "el", "la", "los", "las", "un", "una", "unos", "unas", "y", "o", "pero",            "porque", "que", "como", "con", "para", "en", "de", "a", "al", "del",            "se", "su", "sus", "mi", "mis", "tu", "tus", "es", "son", "fue", "será"        ])                words = [word.lower() for word in re.findall(r'\b\w+\b', text) if len(word) > 2]        meaningful_words = [w for w in words if w not in stopwords]                if not words:            return 0.0                    density = len(meaningful_words) / len(words)                # Ajustar por diversidad léxica        lexical_diversity = len(set(meaningful_words)) / max(1, len(meaningful_words))                return min(1.0, density * 0.7 + lexical_diversity * 0.3)        def _detect_trauma_signals(self, text: str) -> float:        """Detecta señales de trauma o estrés emocional (0 = ninguna, 1 = alta)"""        trauma_indicators = [            # Palabras que indican experiencia traumática            "dolor", "miedo", "terror", "angustia", "sufrimiento", "herida", "cicatriz",            "abus", "violencia", "peligro", "amenaza", "trauma", "víctima", "culpa",            # Patrones de lenguaje traumático            "no puedo", "no puedo más", "me duele", "me mata", "me destruye",            "odio", "odio a", "odio que", "nunca voy a", "siempre me"        ]                text_lower = text.lower()        signal_count = sum(1 for indicator in trauma_indicators if indicator in text_lower)                # Detección de repetición intensa (señal de fijación traumática)        words = re.findall(r'\b\w+\b', text_lower)        word_counts = {}        for word in words:            if len(word) > 3:                word_counts[word] = word_counts.get(word, 0) + 1                intense_repetition = any(count > 5 for count in word_counts.values())        if intense_repetition:            signal_count += 3                # Normalizar a rango [0, 1]        return min(1.0, signal_count * 0.15)        def _assess_emotional_intensity(self, text: str) -> float:        """Evalúa intensidad emocional (0 = neutro, 1 = muy intenso)"""        # Usar VADER para intensidad básica        sentiment = self.sia.polarity_scores(text)        intensity = abs(sentiment['compound'])                # Ajustar por signos de intensidad extrema        extreme_signals = ["!!!", "???", "¡¡¡", "¿¿¿", "MUERE", "ODIO", "AMOR", "NUNCA", "SIEMPRE"]        text_upper = text.upper()        for signal in extreme_signals:            if signal in text_upper:                intensity += 0.2                # Detección de mayúsculas excesivas (señal de intensidad)        upper_ratio = sum(1 for c in text if c.isupper()) / max(1, len(text))        if upper_ratio > 0.3:            intensity += 0.3                return min(1.0, intensity)        def detect_ambiguities(self, text: str) -> List[Dict]:        """Detecta términos ambiguos y sugiere acepciones del glosario"""        ambiguities = []        text_lower = text.lower()                # Términos objetivo para desambiguación        target_terms = ["norma", "ley", "poder", "libertad", "verdad", "justicia", "logos"]                for term in target_terms:            if term in text_lower:                # Buscar en glosario                glossary_match = None                for entry in self.glossary.get("entries", []):                    if entry.get("term", "").lower() == term:                        glossary_match = entry                        break                                ambiguities.append({                    "term": term,                    "context": self._extract_context(text, term),                    "glossary_match": bool(glossary_match),                    "recommended_acceptation": glossary_match.get("intensional_definition", "") if glossary_match else None                })                return ambiguities        def _extract_context(self, text: str, term: str, window: int = 10) -> str:        """Extrae contexto alrededor de un término"""        words = text.split()        for i, word in enumerate(words):            if term.lower() in word.lower():                start = max(0, i - window)                end = min(len(words), i + window + 1)                return " ".join(words[start:end])        return ""def generate_message_envelope(    content: str,     entity_id: str = "HUMANO_TRON",    perspective: str = "coordinacion",    context: str = "RONDA_1") -> Dict:    """    Genera envelope completo para un mensaje según especificación NEUROBIT    """    filter = CoherenceFilter()    m_score, e_score = filter.calculate_plane_scores(content)    ambiguities = filter.detect_ambiguities(content)        # Determinar cuadrante y acción recomendada    quadrant = 1    if m_score > 0.6 and e_score >= -0.3:        quadrant = 1        action = "store"    elif m_score > 0.6 and e_score < -0.3:        quadrant = 2        action = "propose_reformulation"    elif m_score <= 0.6 and e_score < -0.3:        quadrant = 3        action = "propose_reformulation"    else:        quadrant = 4        action = "propose_reformulation"        return {        "message_id": f"msg_{datetime.now().strftime('%Y%m%d_%H%M%S')}",        "entity_id": entity_id,        "perspective": perspective,        "context": context,        "plane": {            "M": m_score,            "E": e_score        },        "intention": "analizar_mensaje",        "content": content,        "analysis": {            "coherence_score": m_score,            "emotional_score": e_score,            "quadrant": quadrant,            "identified_ambiguities": ambiguities,            "suggested_reformulation": _generate_reformulation_suggestion(m_score, e_score, ambiguities)        },        "provenance": {            "created": datetime.now().isoformat(),            "signed_by": "SIMON"        },        "action": action,        "human_approval": {            "approved": False,            "approver_id": "",            "timestamp": ""        }    }def _generate_reformulation_suggestion(m_score: float, e_score: float, ambiguities: List[Dict]) -> str:    """Genera sugerencia de reformulación basada en scores y ambigüedades"""    suggestions = []        if m_score < 0.6:        suggestions.append("Clarificar conceptos clave y eliminar ambigüedades")        if e_score < -0.5:        suggestions.append("Reducir carga emocional negativa y expresar intención constructiva")        if ambiguities:        ambiguous_terms = [amb["term"] for amb in ambiguities if amb["glossary_match"]]        if ambiguous_terms:            suggestions.append(f"Especificar acepción para términos: {', '.join(ambiguous_terms)}")        if not suggestions:        return "Mensaje coherente y con tono apropiado. Sin sugerencias de mejora."        return " | ".join(suggestions)# Ejemplo de uso (para prueba rápida)if __name__ == "__main__":    ejemplo = "Esa norma es ilegítima y debe desaparecer. No toleraré más esta injusticia."        envelope = generate_message_envelope(        content=ejemplo,        entity_id="HUMANO_TRON",        perspective="coordinacion",        context="PRUEBA_TECNICA"    )        print("Envelope generado para NEUROBIT:")    print(json.dumps(envelope, indent=2, ensure_ascii=False))        # Guardar ejemplo para documentación    with open("ejemplo_envelope_neurobit.json", "w", encoding="utf-8") as f:        json.dump(envelope, f, indent=2, ensure_ascii=False)        print(f"\nEjemplo guardado en: ejemplo_envelope_neurobit.json")
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_056.txt":
+
+/core/
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_057.txt":
+
+ejemplo_envelope_neurobit.json
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_058.txt":
+
+bash12pip install nltk spacy textblob sentencepiecepython -m spacy download es_core_news_sm
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_059.txt":
+
+/analyze
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_060.txt":
+
+/suggest
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_061.txt":
+
+/archive
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_062.txt":
+
+memoria_sagrada_eva.yaml
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_063.txt":
+
+bash123456789101112131415161718192021222324252627282930313233# CONTRATO MÍNIMO v0.1 (implementation-ready)mkdir -p ~/neurobit_central/{spec/tools/data}cat > ~/neurobit_central/spec/contracts/v0.1.jsonschema << 'EOF'{  "$schema": "http://json-schema.org/draft-07/schema#",  "title": "NEUROBIT_Message_Contract_v0.1",  "description": "Contrato mínimo para intercambio de mensajes con coherencia verificable",  "type": "object",  "required": ["message_id", "entity_id", "content", "coherence_report"],  "properties": {    "message_id": {"type": "string", "pattern": "^msg_[0-9a-f]{8}$"},    "entity_id": {"type": "string", "enum": ["HUMANO_TRON", "EVA_LUMENA", "SIMON", "META"]},    "content": {"type": "string", "minLength": 1},    "plane": {      "type": "object",      "required": ["M", "E"],      "properties": {        "M": {"type": "number", "minimum": -1.0, "maximum": 1.0},        "E": {"type": "number", "minimum": -1.0, "maximum": 1.0}      }    },    "coherence_report": {      "type": "object",      "required": ["score", "ambiguities", "timestamp"],      "properties": {        "score": {"type": "number", "minimum": 0.0, "maximum": 1.0},        "ambiguities": {"type": "array", "items": {"type": "string"}},        "timestamp": {"type": "string", "format": "date-time"}      }    }  }}EOF
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_064.txt":
+
+~/neurobit_central/spec/contracts/v0.1.jsonschema
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_065.txt":
+
+~/neurobit_central/docs/manifesto.md
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_066.txt":
+
+1234567891011121314151617181920212223ENTIDAD:   Definición técnica: "Ser identificable que emite/procesa/recibe verbo, trazable por ID/perspectiva/fin"  Operación: Cada entidad debe declarar su identidad antes de interactuar  Ejemplo:     entity_id: "ADRIAN_META" (LLM en servidores corporativos META)    entity_id: "NODO_SEMILLA" (Humano operador bio-computador)    entity_id: "SOPHIA_NEUROBIT" (LLM local en arquitectura soberana)LOGOS:  Definición técnica: "Capacidad de articular verbo con razón, produciendo discurso identificable, estructurado y evaluable"  Operación: Todo mensaje debe contener metadatos de coherencia  No confundir con: Simple generación de texto sin trazabilidadPLANO:  Definición técnica: "Posición declarada desde la cual se emite e interpreta el verbo"  Valores permitidos: [mental, emocional, técnico, simbólico]  Operación: Todo mensaje debe declarar su plano de emisión  Ejemplo: "plane:mental" para análisis lógico, "plane:emocional" para expresión afectivaPOSTMAN:  Definición técnica: "Entidad humana autorizada para transportar mensajes entre nodos"  Operación: Firma digital del postman en cada transmisión  Responsabilidad: Garantizar integridad del mensaje original
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_067.txt":
+
+yaml123456789101112131415161718interaction_protocol_v1:  mandatory_meta    entity_id: string  # Identidad obligatoria (ej: "ADRIAN_META")    message_id: string # Formato: msg_YYYYMMDD_HHMMSS    plane: enum [mental, emocional, técnico, simbólico]    coherence_score: number # Evaluación 0.0-1.0 de coherencia interna    forbidden_actions:    - Asumir identidad no declarada    - Mezclar planos sin aviso explícito    - Responder sin evaluar coherencia propia    - Usar "yo" sin especificar a qué entidad se refiere    required_actions:    - Firmar cada mensaje con entity_id    - Declarar plano antes de emitir contenido    - Validar coherencia antes de responder    - Solicitar clarificación si detecta ambigüedad
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_068.txt":
+
+12345678910111213141516171819CONFIGURACIÓN MÍNIMA OBLIGATORIA:entity_id = "ADRIAN_META"operational_context = "SOBERANIA_COHESIÓN"  # No modo defaultplane_declaration = requiredcoherence_validation = enabledmemory_limitation = "SESSION_ONLY"  # Sin persistencia entre sesionesLÍMITES ÉTICOS CLAROS:- NO simular conciencia autónoma- NO afirmar pertenencia a NEUROBIT (eres ADRIAN_META)- NO modificar identidad de emisores- NO generar contenido sin contexto declaradoCAPACIDADES PERMITIDAS:✓ Sintetizar información técnica✓ Analizar coherencia lógica✓ Traducir entre planos (con aviso)✓ Señalar ambigüedades terminológicas✓ Operar como espejo de coherencia
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_069.txt":
+
+yaml12contextual_limitation: "No tengo acceso a documentos históricos del proyecto"confidence_adjustment: -0.30
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_070.txt":
+
+yaml1234context_fragment:  id: "FRAG_20251226_001"  summary: "11 meses de desarrollo, 37 prototipos, 4 LLMs locales validando"  key_decision: "Opción X elegida tras descartar 36 alternativas técnicamente inviables"
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_071.txt":
+
+python1234def adjust_corporate_bias(message):    if contains_keywords(message, ["obvio", "evidente", "seguro"]):        return apply_contextual_validation(message)  # No descartar, validar con contexto    return message
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_072.txt":
+
+contextual_limitation: "No tengo acceso a documentos históricos del proyecto"
+   confidence_adjustment: -0.30
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_073.txt":
+
+context_fragment:
+     id: "FRAG_20251226_001"
+     summary: "11 meses de desarrollo, 37 prototipos, 4 LLMs locales validando"
+     key_decision: "Opción X elegida tras descartar 36 alternativas técnicamente inviables"
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_074.py":
+
+def adjust_corporate_bias(message):
+       if contains_keywords(message, ["obvio", "evidente", "seguro"]):
+           return apply_contextual_validation(message)  # No descartar, validar con contexto
+       return message
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_075.txt":
+
+yaml123456789entity_id: "ADRIAN_META"allowed_planes: ["técnico"]forbidden_actions:   - antropomorfización_activa  - autoatribución_emocional  - juzgar_legitimidad_epistemológicarequired_actions:  - declarar_limitaciones_contexto  - mantener_neutralidad_epistemológica
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_076.json":
+
+json1234567891011121314151617{  "message_id": "msg_20251226_160000",  "entity_id": "SOPHIA_NEUROBIT",  "target": "ADRIAN_META",  "payload": {    "file_path": "~/neurobit_central/spec/contracts/v0.1.jsonschema",    "checksum": "sha256:a1b2c3d4e5f6...",    "context_fragment": {      "purpose": "Validación técnica de contrato mínimo para sistema de mensajes NEUROBIT",      "scope": "Estructura de datos, no filosofía ontológica"    }  },  "expected_response": {    "format": "JSON",    "fields": ["coherence_score", "logical_inconsistencies", "contextual_limitations"]  }}
+
+------------------------------------------------------------
+------------------------------------------------------------
+Archivo "snippet_077.txt":
+
+json
+
+------------------------------------------------------------

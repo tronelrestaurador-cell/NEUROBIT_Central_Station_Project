@@ -1,0 +1,19 @@
+{
+	 "folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"chat.agent.todoList": {
+
+			"position": "default"
+		},
+		"chat.editor.wordWrap": "on",
+		"chat.emptyChatState.enabled": false,
+		"chat.emptyState.history.enabled": true,
+		"github.copilot.chat.customOAIModels": {
+			
+		}
+	}
+}

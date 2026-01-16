@@ -1,0 +1,15 @@
+PROTOCOL_ID: NEUROBIT_MSG_v0
+VERSION: '0.1'
+MESSAGE_ID: e16d4c65-f4ce-468b-b0a8-a9a2a544f59a
+SESSION_ID: SALA_01
+CREATED_AT: '2026-01-14T23:52:12.528038Z'
+ORIGEN: SIMON_RUNNER
+MESSAGE_HASH: c4ca8e23aa0f
+FRAGMENT:
+  INDEX: 1
+  TOTAL: 1
+  TEMA: general
+TAGS:
+- generated_by_msg_builder
+CONTENT: prueba adaptador desde runner
+NOTES: ''

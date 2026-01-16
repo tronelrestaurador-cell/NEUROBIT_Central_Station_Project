@@ -1,0 +1,18 @@
+Lo primero... el equipo de trabajo y su gestión.
+
+Necesitamos mejorar la bitácora, que debe funcionar de la siguiente manera:
+
+--------------------------------
+ 
+Instalar xampp
+-El usuario primero debe instalar el xampp para correr un servidor 
+
+Descargar la plataforma 
+-descargar la carpeta comprimida "BITACORA-EVA" .tar.gz 
+
+Descomprimir en .htdocs
+colocar la carpeta en el directorio .htdocs así llama desde su "127.0.0.1/BITACORA-EVA/index.html"
+
+---------------
+869	4183794	TESSONE ADRIANA ESTELA	IIADEF INVESTIGACIONES EN INTELIGENCIA ARTIFICIAL EN DERECHO Y FILOSOFIA	41	22/4/2024		1
+
