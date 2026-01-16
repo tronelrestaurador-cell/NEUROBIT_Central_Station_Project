@@ -595,6 +595,29 @@ document.addEventListener('DOMContentLoaded', () => {
   Events.init();
   UI.updateHistorial();
   
+  // Inicializar Matriz 13x13 (si arquetipos.js está cargado)
+  if (typeof MatrizArquetipos !== 'undefined') {
+    console.log('🧬 Inicializando Matriz de Arquetipos...');
+    
+    // Crear contenedor para la matriz si no existe
+    const mainContent = document.querySelector('.main-content');
+    const matrizContainer = document.createElement('div');
+    matrizContainer.id = 'matriz-container';
+    
+    // Insertar DESPUÉS del área de input pero ANTES del historial
+    const inputArea = document.querySelector('.input-area');
+    const historialSection = document.querySelector('.section');
+    if (inputArea && historialSection) {
+      inputArea.parentNode.insertBefore(matrizContainer, historialSection);
+    } else {
+      mainContent.appendChild(matrizContainer);
+    }
+    
+    // Inicializar MatrizUI
+    window.matrizUI = new MatrizUI('#matriz-container', 13);
+    console.log('✓ Matriz 13x13 lista');
+  }
+  
   // Focus en el primer campo
   document.getElementById('senderName').focus();
 
