@@ -36,6 +36,8 @@ except Exception:
 
 from core.coherence_filter import analyze as analyze_text
 from core import participants as participants_mod
+from core import init_ceremony
+from core import centinela_monitor
 import importlib
 import sys
 from pathlib import Path
@@ -383,6 +385,95 @@ def store_envelope(envelope: dict) -> None:
     out = data_dir / 'memoria_eva.jsonl'
     with out.open('a', encoding='utf-8') as f:
         f.write(json.dumps(envelope, ensure_ascii=False) + "\n")
+
+
+# ============================================================================
+# NUEVOS ENDPOINTS: INIT_CEREMONY y CENTINELA_MONITOR
+# ============================================================================
+
+@app.route('/init_ceremony', methods=['POST'])
+def init_ceremony_endpoint():
+    """Ejecuta la ceremonia de despertar del NODO_SEMILLA.
+    
+    POST /init_ceremony
+    Body: {} (opcional, puede ser vacío)
+    
+    Retorna: estado de inicialización con todas las verificaciones
+    """
+    try:
+        results = init_ceremony.run_ceremony()
+        return jsonify(results)
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "error": str(e),
+            "ready": False
+        }), 500
+
+
+@app.route('/init_ceremony/status', methods=['GET'])
+def init_ceremony_status_endpoint():
+    """Obtiene estado actual de la ceremonia de despertar.
+    
+    GET /init_ceremony/status
+    
+    Retorna: estado de variables de entorno y sistema
+    """
+    try:
+        status = init_ceremony.get_ceremony_status()
+        return jsonify(status)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/start_centinela', methods=['POST'])
+def start_centinela_endpoint():
+    """Inicia el Centinela (monitor de clipboard local).
+    
+    POST /start_centinela
+    Body: {} (opcional)
+    
+    Nota: El Centinela funciona en background. Los registros se guardan en:
+    - data/memoria_eva.jsonl (append-only)
+    - data/centinela_resguardo.jsonl (logs detallados)
+    
+    PRIVACIDAD: El clipboard se monitorea LOCALMENTE SOLAMENTE.
+    No se envía información a servidores externos.
+    """
+    try:
+        result = centinela_monitor.start_centinela(background=True)
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route('/stop_centinela', methods=['POST'])
+def stop_centinela_endpoint():
+    """Detiene el Centinela.
+    
+    POST /stop_centinela
+    Body: {} (opcional)
+    """
+    try:
+        result = centinela_monitor.stop_centinela()
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route('/centinela_status', methods=['GET'])
+def centinela_status_endpoint():
+    """Obtiene estado actual del Centinela.
+    
+    GET /centinela_status
+    
+    Retorna: estado de ejecución y tamaño de logs
+    """
+    try:
+        status = centinela_monitor.get_status()
+        return jsonify(status)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 

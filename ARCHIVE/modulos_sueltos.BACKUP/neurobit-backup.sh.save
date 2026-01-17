@@ -1,0 +1,20 @@
+#!/bin/bash
+# Script de backup para proyecto Neurobit
+FECHA=$(date +%Y%m%d_%H%M%S)
+BACKUP_DIR="$HOME/neurobit-backups/backup_$FECHA"
+
+echo "🧠 Creando backup Neurobit - $FECHA"
+mkdir -p "$BACKUP_DIR"
+
+# Respaldar proyecto completo
+cp -r ~/proyectos/neurobit-gui "$BACKUP_DIR/proyecto" 2>/dev/null || true
+
+# Respaldar configuraciones críticas
+mkdir -p "$BACKUP_DIR/config"
+cp /etc/apache2/sites-available/neurobit-gui.conf "$BACKUP_DIR/config/" 2>/dev/null || true
+cp /etc/systemd/system/neurobit-api.service "$BACKUP_DIR/config/" 2>/dev/null || true
+
+# Mostrar estadísticas
+echo "✅ Backup completado en $BACKUP_DIR"
+echo "📦 Tamaño: $(du -sh "$BACKUP_DIR" | cut -f1)"
+echo "💡 Para restaurar: cp -r \"$BACKUP_DIR/proyecto\" ~/proyectos/neurobit-gui.bak"

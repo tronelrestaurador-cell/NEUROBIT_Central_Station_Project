@@ -1,0 +1,9 @@
+04:56:21 gdm3: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+04:56:15 systemd: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-3797.scope - Application launched by gnome-session-binary.
+04:56:15 systemd: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-3797.scope - Application launched by gnome-session-binary.
+04:56:15 systemd: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-3794.scope - Application launched by gnome-session-binary.
+04:56:15 systemd: Failed to start app-gnome-gnome\x2dkeyring\x2dpkcs11-3800.scope - Application launched by gnome-session-binary.
+04:56:13 gdm3: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+04:56:11 gdm-session-wor: gkr-pam: unable to locate daemon control file
+04:54:30 dnsmasq: cannot read /var/snap/multipass/common/data/multipassd/network/dnsmasq.hosts: Permission denied
+04:53:49 kernel: x86/cpu: SGX disabled or unsupported by BIOS.
